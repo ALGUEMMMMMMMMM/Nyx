@@ -2517,7 +2517,7 @@ div[class*="titleBar-"] div:nth-of-type(4) {
     
 /* Guilds */
 .guilds .home-icon g{display:none;}
-.guilds-wrapper .guilds svg.home-icon{background: url(https://cdn.rawgit.com/satoru8/Icons/215bf4c4/menu24.png) no-repeat center/cover !important;margin-left: 45px;}
+.guilds-wrapper .guilds svg.home-icon{background: url(https://cdn.rawgit.com/satoru8/Icons/215bf4c4/menu24.png) no-repeat center/cover !important;margin-left: 40px;}
 .guilds-wrapper .guilds svg.home-icon:active {animation: buttonL 200ms}
 .app .guilds>div.guild:first-child .badge{
 	margin: 0 2px !important;background-color: var(--trans2);
