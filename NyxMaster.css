@@ -1609,7 +1609,7 @@ form.deprecated.auth-form,.auth-inner .auth-brand {background: rgba(0,0,0,0.4) !
 .chat>.title-wrap>.topic{font-size:14px;margin-top:5px;color:#656565 !important;}
 .chat>.content .messages .message-group{border-bottom:none !important;}
 .chat>.content .messages .message-group a{color: var(--color) !important;font-weight: 500;}
-.chat>.content .messages .message-group .markup{line-height:1.3em;position:relative;left:4px;padding:0;width:auto;margin:auto}
+.chat>.content .messages .message-group .markup{line-height:1.3em;left:4px;padding:0;width:auto;margin:auto}
 .channel-textarea-inner{border: 0;background:var(--dark) !important;padding:0;border-radius: 0px!important;height: 100%;}
 .theme-dark .chat .title-wrap .channel-name{font-size:16px !important;text-transform:capitalize !important;}
 .theme-dark .chat .title-wrap .topic{padding-bottom:6px;}
