@@ -1605,6 +1605,7 @@ form.deprecated.auth-form,.auth-inner .auth-brand {background: rgba(0,0,0,0.4) !
 
 
 /* Msg Stuff */
+.theme-dark .base-34jWEe {background-image: none }
 .chat .new-messages-bar,.chat .new-messages-bar:hover{background-color:var(--color);width:60%;margin:auto;opacity:0.6;}
 .chat>.title-wrap>.topic{font-size:14px;margin-top:5px;color:#656565 !important;}
 .chat>.content .messages .message-group{border-bottom:none !important;}
