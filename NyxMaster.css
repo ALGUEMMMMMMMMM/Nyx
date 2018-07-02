@@ -1848,7 +1848,7 @@ form.deprecated.auth-form,.auth-inner .auth-brand {background: rgba(0,0,0,0.4) !
 .theme-dark .modal-1UGdnR .emojiButtonNormal-2yO7yT.emojiButton-3c_qrT.emojiButton-38mF6t {top: 10px;}
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S { border-bottom-color: var(--color);}
 .emojiPicker-3m1S-j .category-2U57w6 {color: var(--accent);font-size: 12px;font-weight: 600;text-align: center;line-height: 12px;text-align-last: center;height: auto;border:1px solid var(--color)}
-.emojiPicker-3m1S-j {animation: sliding .5s;box-shadow:0 0 5px 1px var(--color) !important;max-width: 340px;background-color: rgba(0,0,0,0.7);border: none;border-radius: 0px;}
+.emojiPicker-3m1S-j,#bda-qem-twitch-container, #bda-qem-favourite-container {animation: sliding .5s;box-shadow:0 0 5px 1px var(--color) !important;max-width: 340px;background-color: rgba(0,0,0,0.7);border: none;border-radius: 0px;}
 .emoji.jumboable {height: auto; width: 40px;max-height: 40px;}
 .emoji-picker,.emoji-picker .sticky-header,.emoji-picker .search-bar{background-color: rgba(0,0,0,0.65);border-color: #000 !important;}
 .emoji-picker .search-bar{background-color: transparent !important;}
