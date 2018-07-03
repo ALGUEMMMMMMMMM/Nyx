@@ -2351,7 +2351,7 @@ div[class*="titleBar-"] div:nth-of-type(4) {
 
 .popouts-3dRSmE .popout-3sVMXz .menu-Sp6bN1:not(.alt-3btY0e) .item-1GzJrl:hover {background: var(--trans2);box-shadow: 0 0 3px 1px var(--accent)}
 .theme-dark .menu-Sp6bN1 {background: var(--trans2);border: 1px solid var(--accent)}
-.theme-dark .menu-Sp6bN1:not(.alt-3btY0e) {left:-110px;position:absolute;animation:toppopout .5s}
+.theme-dark .menu-Sp6bN1:not(.alt-3btY0e) {left:-110px;position:absolute;animation:toppopout .4s}
 
 /* Status */
 .status-oxiHuE.small-5Os1Bb.typing-1KJk_j.status-2s6iDp,
