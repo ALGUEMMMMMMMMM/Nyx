@@ -15,16 +15,16 @@ Simply swap the url you need with the uncommented line. */
 @import url(https://tinyurl.com/ybuqovun);
 
 :root {
-    --background: url(https://images.alphacoders.com/699/699287.jpg);  /*  Background. */
+    --background: url(https://images2.alphacoders.com/581/581898.jpg);  /*  Background. */
 	--font:	'Lato', sans-serif;
 	--font-size: 16px;
 	--text:  #fff;										/* Chat text color */
 	--cb: 10px;                                           /*Change chatbox style*/
 	--cbround: 7px;                                       /* Chatbox roundness */
-	--msg:rgba(0, 0, 0, 0.5);					        /* Msg background darkness */
+	--msg:rgba(0, 0, 0, 0.3);					        /* Msg background darkness */
     --color: hsla(268, 100%, 50%, 0.9);                   /*Main Color*/
     --accent: hsl(297, 100%, 40%);                      /*Accent Color*/  	
-    --trans: rgba(0, 0, 0, 0.35);                        /*Darkness*/
+    --trans: rgba(0, 0, 0, 0.3);                        /*Darkness*/
 	--round: 50%;                                       /*Icon Roundness*/
     --msgblock: content;                                /* "none" will hide, "content" will show */
 	/* Below this line should not be changed.*/
