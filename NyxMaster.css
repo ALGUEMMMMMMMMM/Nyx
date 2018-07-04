@@ -2518,22 +2518,20 @@ div[class*="titleBar-"] div:nth-of-type(4) {
 	margin: 0 2px !important;background-color: var(--trans2);
 	transition: .2s background-color linear;}
 .guilds-wrapper .guilds .guild:active {animation: buttonM 100ms}
-#bd-pub-li {position: absolute;left:30px;top:5px}
+#bd-pub-li {position:relative; left: 23px;margin-top:15px}
 #bd-pub-li > div {background: var(--trans2)}
 .guilds-wrapper .guilds .dms .guild {left: 0;margin: 0 25px 10px 0;}
-.theme-dark .guilds .friends-online{color: var(--accent) !important;height:10px;font-weight:800!important;font-size:10px !important;}
 .guilds-wrapper .guilds-add {height:40px!important;background: var(--trans);border: 1px solid var(--color);color: var(--color);}
 .guilds-wrapper .guilds-add:hover {background: rgba(0, 0, 0, 0.8);border: 1px solid var(--color);box-shadow: 0 0 10px 1px var(--color);color: var(--color);}
-.guilds-wrapper .guilds .guild {margin-left: 6px;margin-top: 8px;position: relative;width:40px;height:40px;left:5px;}
 .guilds-wrapper .guilds .guild.selected:before {display: none;}
 .guilds-wrapper .scroller-wrap{width: 135px;}
 .guilds-wrapper{width: 120px;}
 .guilds-wrapper .guilds {display: flex;    flex-flow: row wrap;padding-left: 0;align-content: flex-start;}
 .guilds-wrapper .guilds .guild:first-child {position: relative;left: 0;margin: auto;margin-top: 5px;}
 .guilds-wrapper .guilds .guild-separator {position: relative;width: 100%;margin-top: 1px;}
-.guilds-wrapper .guilds .friends-online {position: relative;width: 100%;margin: auto;margin-top: 1px;}
+.guilds-wrapper .guilds .friends-online {position: relative;right:30px;margin:1px;}
 .guilds-wrapper .guilds .dms {width: 100%;display: flex;flex-flow: row wrap;}
-.guilds-wrapper .guilds .guild .guild-inner, .guilds-wrapper .guilds .guild-icon,.guilds-wrapper .guilds .guild .badge {border-radius: var(--round)!important}
+.guilds-wrapper .guilds .guild .guild-inner, .guilds-wrapper .guilds .guild-icon,.guilds-wrapper .guilds .guild .badge {border-radius: var(--round)!important;}
 .guilds-wrapper .guilds .guild-icon,.guilds-wrapper .guilds .friends-icon {width:40px;height:40px;}
 .guilds-wrapper .guilds .guild .avatar-small {background-repeat: no-repeat;background-size: 40px 40px;height: 40px;width: 40px;}
 div.tooltips div.tooltip-right.tooltip-red {font-size: 0;max-width: 208px}
@@ -2545,14 +2543,13 @@ div.tooltips div.tooltip-right.tooltip-red strong:before {font-size: 14px;conten
 .guilds-wrapper .guilds .guild.audio .guild-inner:after {display: none}
 .guilds-wrapper .guilds .guild-separator {position: relative;width: 100%;margin-top: 0px;}
 .guilds-wrapper .guilds .guild+.guild .badge {opacity:0.7;height:9px;width:6px;bottom: 0;right: 0;position: absolute;}
-.guilds-wrapper .guilds .guild .guild-inner {background: transparent}
+.guilds-wrapper .guilds .guild .guild-inner {background: transparent;}
 .dms .guild:first-child {border-bottom: 0 !important;background: rgba(0, 0, 0, 0) !important;
     position: inherit !important;border-radius: 40px !important;width:40px !important;height:40px !important}
 .guilds-wrapper .dms{margin: auto;	display: flex;flex-flow: row wrap;width: auto;}
 .guilds-wrapper .guilds .dms .guild {left: 0;margin: 0 15px -5px 0;}
 .theme-dark .guilds-wrapper{margin-top: 45px !important;width: 110px;}
-.theme-dark .guilds .friends-online{color: var(--accent) !important;height:30px;overflow:hidden;font-weight:800!important;font-size:10px !important;}
-.theme-dark .guilds-wrapper .guilds .friends-online{width:61px;margin-left: 20px !important}
+.theme-dark .guilds .friends-online{color: var(--accent) !important;overflow:hidden;font-weight:800!important;font-size:10px !important;}
 .theme-dark .guilds-wrapper .guilds .guild .guild-inner:not(svg.home-icon) {width:40px;border-radius:var(--round)!important;text-transform: capitalize;}
 .theme-dark .guilds-wrapper .guilds .guild .guild-inner a {width:40px;height:40px;background-size:cover;color: var(--color);}
 .theme-dark .guilds-wrapper .guilds .guild-icon {border-radius: var(--round);width:40px;height:40px;}
@@ -2566,7 +2563,7 @@ div.tooltips div.tooltip-right.tooltip-red strong:before {font-size: 14px;conten
     display: flex;flex-flow: row wrap;
 	align-content: space-between;}
 .guilds-wrapper .guilds .guild:not(.dms):first-child {animation: none;width: 113px;border-bottom: 1px solid var(--color);top: 0px;padding-bottom: 0px;position: fixed;left: -3px;margin-top: 0px !important;z-index: 2;}
-.guilds-wrapper .guilds .guild {left:-4px;margin-right:8px;width:40px;height:46px;}
+.guilds-wrapper .guilds .guild {left:-4px;margin-right:8px;width:40px;height:46px;px;margin-left: 6px;margin-top:8px;}
 
 /* Animations */
 @keyframes button	{100%{transform:scale(.90)}50%{transform:scale(1)}} 
