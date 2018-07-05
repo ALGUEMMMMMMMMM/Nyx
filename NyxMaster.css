@@ -986,6 +986,7 @@ polyline[stroke*="#7289da"]{stroke:var(--color) !important;}
 .headerSpotify-1fSJPO  .lookOutlined-3sRXeN.colorWhite-rEQuAQ,.barInner-2eCe2h,.topSectionSpotify-1lI0-P  .lookOutlined-3sRXeN.colorWhite-rEQuAQ {border-color: #1db954 !important}
 
 .buttonGreenInverted-3wLrIA {background-color: var(--color)!important;color: #fff !important;}
+.theme-dark .listRow-hutiT_:hover {background:var(--trans2);box-shadow:0 0 0 1px var(--accent)}
 
 .tabBarContainer-1s1u-z{border-top: 0px solid rgba(0, 0, 0, 0);margin-left:130px !important;}
 .tab-bar.tabBar-2MuP6- .tabBarItem-1b8RUP {margin-left: 20px !important}
