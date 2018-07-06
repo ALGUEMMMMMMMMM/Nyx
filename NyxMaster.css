@@ -2320,7 +2320,7 @@ div[class*="titleBar-"] div:nth-of-type(4) {
 .theme-dark .guilds-wrapper .guild-separator:after,.icon-1792kv,#bd-settings-sidebar > span > div:nth-child(2),#bd-settings-sidebar > span > div:nth-child(3),
 .bd-server-card.bd-server-card-pinned:after,.menu-Sp6bN1.alt-3btY0e .separator-2zcjq8,.alt-3btY0e .item-1GzJrl:last-child .helper-2c73HK:last-child,
 .popoutbottom #autocomplete-popout .autocomplete-arrow-wrapper,.unread-mentions-indicator-bottom .unread-mentions-bar:before, 
-.unread-mentions-indicator-top .unread-mentions-bar:before  {display:none !important}
+.unread-mentions-indicator-top .unread-mentions-bar:before,.tooltip.tooltip-right[style*="left: 37px"][style*="top: 8px"]  {display:none !important}
 
 /*Compact Mode Compatibility*/
 .chat>.content .messages .message-group.hide-overflow.compact .markup{padding:0px 0px 0px 6rem;}
