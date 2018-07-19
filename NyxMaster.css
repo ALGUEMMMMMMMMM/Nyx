@@ -2275,28 +2275,21 @@ div.private-channels > div.scrollerWrap-2lJEkd.scrollerThemed-2oenus.themeGhostH
 .theme-dark #friends .friends-table .friend-table-add-wrapper .friend-table-suggestions-header{text-align:center;border-bottom:1px solid transparent;background-color:transparent;background-image:linear-gradient(90deg,transparent,transparent),linear-gradient(90deg,transparent,var(--color),transparent);background-size:100% 3px;background-position:0 0,0 100%;background-repeat:no-repeat;}
 
 /* TITLE BAR */
-.winButtonClose-1HsbF-:active,.winButtonMinMax-PBQ2gm:active {animation: buttonM 100ms !important}
 #app-mount .titleWrapper-3Vi_wz > div{margin-right: 98px !important;}
 .activityFeed--1mYMS .iconMargin-2Js7V9,.theme-dark .activityFeed-HeiGwL  .iconMargin-2Js7V9 ,
 .divider-1GKkV3,#friends .iconMargin-2Js7V9,.divider-1GKkV3 {margin: 0px 90px 0px -85px !important;}
 .typeWindows-1za-n7 {height: 0px;margin-top: 0px;}
 .platform-win .ui-standard-sidebar-view {top: 0px;}
-.chat [class*='titleWrapper-'] [class*='flex-'] [class*='flex-']:after,#friends [class*='flex-'] [class*='flex-']:last-of-type:after,
-[class*='activityFeed-'] [class*='flex-'] [class*='flex-']:last-of-type:after {content: '';width: 1px;height: 0px;background-color: hsla(240,6%,97%,.1);}
-div[class*="titleBar-"]:before {content: '';position: absolute;left: 0;right: 0;top: 1px;height: 16px;z-index: 3002;-webkit-app-region: drag;}
-div[class*="titleBar-"]:after {content: '';position: absolute;left: 0;right: 0;top: 0 !important;height: 0px;z-index: 3002;}
-div[class*="wordmark-"],div[class*="winButton-"] svg {display: none;}
-div[class*="winButton-"] {top: 9px;height: 30px;width: 30px;right: 8px;background-position: center;opacity: .6;transition: 200ms ease;}
-div[class*="winButton-"]:hover{background-color: var(--accent) !important;border-radius: 10px;opacity: 0.8 !important;}
-div[class*="titleBar-"] div:nth-of-type(2) {
-	background-image: url(https://cdn.rawgit.com/satoru8/Icons/18071bd1/close.svg) !important;  
-	background-repeat: no-repeat;background-position: center;background-size: 24px;color:;opacity:1}
-div[class*="titleBar-"] div:nth-of-type(3) {
-    background-image: url(https://cdn.rawgit.com/satoru8/Icons/18071bd1/fullscreen.svg) !important;
-	background-repeat: no-repeat;background-position: center;background-size: 24px;opacity:1}
-div[class*="titleBar-"] div:nth-of-type(4) {
-    background-image: url(https://cdn.rawgit.com/satoru8/Icons/18071bd1/remove.svg) !important;
-	background-repeat: no-repeat;background-position: center 7px;background-size: 24px;opacity:1}
+
+.winButtonClose-1HsbF-:active,.winButtonMinMax-PBQ2gm:active {animation: buttonM 100ms !important}
+.wordmark-2iDDfm,.winButtonMinMax-PBQ2gm svg, .winButtonClose-1HsbF- svg {display: none}
+.titleBar-AC4pGV:before {content:"";position:absolute;height:15px;width:100vw;top:-2px;right:0;-webkit-app-region:drag}
+.titleBar-AC4pGV{position:absolute;top:0;right:0;padding:13px 5px 0 0;z-index:201}
+.winButtonMinMax-PBQ2gm {opacity:1;background: url("https://cdn.rawgit.com/satoru8/Icons/18071bd1/fullscreen.svg") center}
+.winButtonMinMax-PBQ2gm:last-child {background: url("https://cdn.rawgit.com/satoru8/Icons/18071bd1/remove.svg") center}
+.winButtonClose-1HsbF- {opacity:1;background: url("https://cdn.rawgit.com/satoru8/Icons/18071bd1/close.svg") center; background-color: transparent}
+.winButtonClose-1HsbF-:hover {background-color: rgba(245, 245, 245, 0.1)}
+.titleCall-_b9o8P,.headerBar-UHpsPw{padding-right:96px}
 
 /* Display */
 .socialLinks-3jqNFy,.create-guild-container.deprecated .form-actions .btn-default:before,.qs-arrow-icon,.tipsWithoutResults-lGY-De, .tipsWithResults-HhTE9b,
