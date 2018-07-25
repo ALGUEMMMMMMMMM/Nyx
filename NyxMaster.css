@@ -2245,6 +2245,7 @@ div.private-channels > div.scrollerWrap-2lJEkd.scrollerThemed-2oenus.themeGhostH
 .winButtonClose-1HsbF- {opacity:1;background: url("https://cdn.rawgit.com/satoru8/Icons/18071bd1/close.svg") center; background-color: transparent}
 .winButtonClose-1HsbF-:hover {background-color: rgba(245, 245, 245, 0.1)}
 .titleCall-_b9o8P,.headerBar-UHpsPw{padding-right:96px}
+.theme-dark .iconBadge-2dji3k {left:12px}
 
 
 .theme-dark .topic-2QX7LI { color:#fff}
@@ -2317,6 +2318,10 @@ div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.dire
 .profile-ZOdGIb:hover .statusProfile-3ynqtt.status-oxiHuE {width:97% !important;height: 97%;transition:.4s}
 
 body,span:not(.spinner-item){-webkit-font-smoothing:optimizeLegibility !important;-webkit-backface-visibility:hidden;}
+.theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn, 
+.theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn,
+.theme-dark .friends-table .messages .message-group-blocked .message-group-blocked-btn:hover, 
+.theme-dark .messages-wrapper .messages .message-group-blocked .message-group-blocked-btn:hover {background-color: var(--trans2);border:1px solid var(--accent)}
 
 
 
