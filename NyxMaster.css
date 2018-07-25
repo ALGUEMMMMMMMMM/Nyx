@@ -1586,7 +1586,7 @@ form.deprecated.auth-form,.auth-inner .auth-brand {background: rgba(0,0,0,0.4) !
 .theme-dark .chat .has-more button{background:var(--dark2) !important;border:1px solid var(--dark2) !important;color:var(--color) !important;}
 .highlight{color:var(--color);background:#131315;border-radius:3px;padding:1px 4px 2px 3px;}
 .theme-dark .chat .title-wrap .topic .highlight:hover{background-color:var(--accent) !important;color:#fff !important;opacity:0.9;}
-.theme-dark .containerCozy-jafyvG .comment .markup .highlight,.theme-dark .chat .title-wrap .topic .highlight{transition:.3s ease-in-out all;background:rgba(10,9,9,0.35);}
+.theme-dark .containerCozy-jafyvG .comment .markup-2BOw-j .highlight,.theme-dark .chat .title-wrap .topic .highlight{transition:.3s ease-in-out all;background:rgba(10,9,9,0.35);}
 .confirm-message-modal .form-inner .containerCozy-jafyvG{background:#0d0d0e;}
 .theme-dark .timestampCozy-2hLAPV{color: var(--accent); padding-top:2px}
 
@@ -1603,12 +1603,12 @@ form.deprecated.auth-form,.auth-inner .auth-brand {background: rgba(0,0,0,0.4) !
 .theme-dark .messages-wrapper .messages .containerCozy-jafyvG-blocked .containerCozy-jafyvG-blocked-btn:hover {background:var(--trans2)}
 .theme-dark .messages-popout-wrap .messages-popout .containerCozy-jafyvG .action-buttons .jump-button:hover{color:#fff;background:var(--accent) !important;}
 .modal .modal-inner .modal-content .form-inner .containerCozy-jafyvG code {box-shadow: 0 0 0 0 #fff;}
-.containerCozy-jafyvG .comment .markup pre{border:2px solid var(--dark2);}
+.containerCozy-jafyvG .comment .markup-2BOw-j pre{border:2px solid var(--dark2);}
 .containerCozy-jafyvG .edit-message .channel-textarea-inner{border-color:#1D1C1B;}
 .new-messages-indicator.bottom .icon.icon-unread-arrow,.new-messages-indicator .icon.icon-unread-arrow{margin-right:-19px;}
 .mentioned .mention:hover{color:#fff !important;opacity:0.9;}
-.theme-dark .containerCozy-jafyvG .comment .markup .mention{color:var(--color);background: rgba(0, 0, 0, 0);border-radius:3px;padding:0px 4px 0px 3px;transition:.2s all linear;}
-.theme-dark .containerCozy-jafyvG .comment .markup .mention:hover{background-color:var(--color) !important;color:#fff;opacity:0.9;}
+.theme-dark .containerCozy-jafyvG .comment .markup-2BOw-j .mention{color:var(--color);background: rgba(0, 0, 0, 0);border-radius:3px;padding:0px 4px 0px 3px;transition:.2s all linear;}
+.theme-dark .containerCozy-jafyvG .comment .markup-2BOw-j .mention:hover{background-color:var(--color) !important;color:#fff;opacity:0.9;}
 .chat .jump-to-present-bar .spinner{padding-right:7px;padding:8px;padding-left:50px;}
 .messages-popout .channel-separator{margin-top:26px;margin-bottom:10px;background:#131315;padding:8px;border-radius:3px;top:5px;border:2px solid #131315;}
 .messages-popout .channel-separator:hover{border:2px solid var(--color);}
@@ -1637,19 +1637,19 @@ form.deprecated.auth-form,.auth-inner .auth-brand {background: rgba(0,0,0,0.4) !
 .containerCozy-jafyvG .accessory>*:not(:last-of-type){margin-right:10px;}
 .containerCozy-jafyvG .edit-message .edit-container-outer .bf-toolbar div:not(.bf-arrow){padding: 11px 5px;}
 .theme-dark .messages-popout-wrap .messages-popout .containerCozy-jafyvG,.messages-popout .channel-separator{border-color: rgba(0,0,0,0.39) !important;background-color: rgba(0,0,0,0.5) !important;}
-.containerCozy-jafyvG .comment .markup code.inline{background: rgba(0,0,0,0.6) !important;}
+.containerCozy-jafyvG .comment .markup-2BOw-j code.inline{background: rgba(0,0,0,0.6) !important;}
 .theme-dark .containerCozy-jafyvG.is-local-bot-message{box-shadow:0 0 transparent;}
-.theme-dark .containerCozy-jafyvG .comment .markup pre {background: rgba(0,0,0,0) !important;border-color: rgba(0,0,0,0.65) !important;}
+.theme-dark .containerCozy-jafyvG .comment .markup-2BOw-j pre {background: rgba(0,0,0,0) !important;border-color: rgba(0,0,0,0.65) !important;}
 .containerCozy-jafyvG .comment { margin-right: 0px;margin-top: 0px;}
 .messages-popout .channel-separator:hover{border: 2px solid var(--color) !important;}
 .preview-inner div.containerCozy-jafyvG{background-color: transparent !important;border-bottom-color: transparent !important;}
-.containerCozy-jafyvG .comment .markup.spoiler:hover {color: #aaaaaa !important;transition:color 0.3s !important;text-align:center !important;}
+.containerCozy-jafyvG .comment .markup-2BOw-j.spoiler:hover {color: #aaaaaa !important;transition:color 0.3s !important;text-align:center !important;}
 .theme-dark .containerCozy-jafyvG .edit-message .edit-operation {color: white;text-shadow: 0.5px 0.5px 2px rgb(0,0,0) !important;}
 .theme-dark .chat .has-more button {background: var(--trans) !important;border: none !important;color: var(--color) !important;}
 
 *:not([class*="hljs"]):not(code){font-family: var(--font)!important;}
-.markup:not(code) {font-size: var(--font-size)!important;}
-.theme-dark .containerCozy-jafyvG .comment .markup {color: var(--text)}
+.markup-2BOw-j:not(code) {font-size: var(--font-size)!important;}
+.theme-dark .containerCozy-jafyvG .comment .markup-2BOw-j {color: var(--text)}
 .containerCozy-jafyvG .comment > div .btn-option,
 .containerCozy-jafyvG .comment > div:hover .btn-option {
 	background-image: url(https://cdn.rawgit.com/satoru8/Icons/18071bd1/settings.svg) !important;  
@@ -1829,70 +1829,70 @@ form.deprecated.auth-form,.auth-inner .auth-brand {background: rgba(0,0,0,0.4) !
 .tooltip.tooltip-error.tooltip-right:after{border-right-color: var(--color);}
 
 /* Text Shadow */
-.theme-dark .channelName-3stJzi, .theme-dark .groupDM-3qU0Ks .channelName-3stJzi, .theme-dark .groupDMManaged-1GyXtq .channelName-3stJzi, .theme-dark .input-autosize-input, .theme-dark .input-autosize-input:focus, .theme-dark .activityProfile-2pymp0 .headerText-2CVBxK, .theme-dark .activityUserPopout-1nmgaw .headerText-2CVBxK, .theme-dark .activityProfile-2pymp0 .content-P9ThHS, .theme-dark .activityProfile-2pymp0 .details-vSFjFG, .theme-dark .activityProfile-2pymp0 .name-8onsv0, .theme-dark .activityUserPopout-1nmgaw .content-P9ThHS, .theme-dark .activityUserPopout-1nmgaw .details-vSFjFG, .theme-dark .activityUserPopout-1nmgaw .name-8onsv0, .buttonWhiteOutlined-2KwPTg, .inner-ptMwR- .channel-3YGMy1, .inner-ptMwR- .rtc-connection-status .ping, .inner-ptMwR- .rtc-connection-status-connected, .contents-4L4hQM, .image-EVRGPw, .role-3rahR_, .quick-message, .bodyTitle-yehI7c, .protip .label, .headerTagNoNickname-26rERL, .theme-dark .chat>.content .messages .containerCozy-jafyvG .markup, .theme-dark .chat>.title-wrap>.topic, .channel-members h2, .channel-members .member .member-activity, .channel-members .member .member-username-inner, .theme-dark .friends-table .messages .containerCozy-jafyvG h2 strong, .theme-dark .messages-wrapper .messages .containerCozy-jafyvG h2 strong {text-shadow: 0 0 5px black,0 0 5px black,0 0 5px black !important;} 
+.theme-dark .channelName-3stJzi, .theme-dark .groupDM-3qU0Ks .channelName-3stJzi, .theme-dark .groupDMManaged-1GyXtq .channelName-3stJzi, .theme-dark .input-autosize-input, .theme-dark .input-autosize-input:focus, .theme-dark .activityProfile-2pymp0 .headerText-2CVBxK, .theme-dark .activityUserPopout-1nmgaw .headerText-2CVBxK, .theme-dark .activityProfile-2pymp0 .content-P9ThHS, .theme-dark .activityProfile-2pymp0 .details-vSFjFG, .theme-dark .activityProfile-2pymp0 .name-8onsv0, .theme-dark .activityUserPopout-1nmgaw .content-P9ThHS, .theme-dark .activityUserPopout-1nmgaw .details-vSFjFG, .theme-dark .activityUserPopout-1nmgaw .name-8onsv0, .buttonWhiteOutlined-2KwPTg, .inner-ptMwR- .channel-3YGMy1, .inner-ptMwR- .rtc-connection-status .ping, .inner-ptMwR- .rtc-connection-status-connected, .contents-4L4hQM, .image-EVRGPw, .role-3rahR_, .quick-message, .bodyTitle-yehI7c, .protip .label, .headerTagNoNickname-26rERL, .theme-dark .chat>.content .messages .containerCozy-jafyvG .markup-2BOw-j, .theme-dark .chat>.title-wrap>.topic, .channel-members h2, .channel-members .member .member-activity, .channel-members .member .member-username-inner, .theme-dark .friends-table .messages .containerCozy-jafyvG h2 strong, .theme-dark .messages-wrapper .messages .containerCozy-jafyvG h2 strong {text-shadow: 0 0 5px black,0 0 5px black,0 0 5px black !important;} 
 
 /* Code stuff */
 code{background-color: rgba(0,0,0,0.6)!important;background-image: linear-gradient(rgba(0,0,0,0.5) 50%,transparent 50%)!important;background-origin: content-box!important;background-position: 0 1.5em!important;background-size: 100% 3em!important;line-height: 1.5 !important;}
 
-.theme-dark .markup .hljs[class~="java" i]::before,.theme-dark .markup .hljs[class~="sql" i]::before,
-.theme-dark .markup .hljs[class~="ruby" i]::before,.theme-dark .markup .hljs[class~="coffee" i]::before,
-.theme-dark .markup .hljs[class~="xl" i]::before,.theme-dark .markup .hljs[class~="py" i]::before,
-.theme-dark .markup .hljs[class~="python" i]::before,.theme-dark .markup .hljs[class~="html" i]::before,
-.theme-dark .markup .hljs[class~="md" i]::before,.theme-dark .markup .hljs[class~="markdown" i]::before,
-.theme-dark .markup .hljs[class~="bash" i]::before,.theme-dark .markup .hljs[class~="js" i]::before,
-.theme-dark .markup .hljs[class~="javascript" i]:before,.theme-dark .markup .hljs[class~="css" i]::before,
-.theme-dark .markup .hljs[class~="vb" i]::before,.theme-dark .markup .hljs[class~="visualbasic" i]::before,
-.theme-dark .markup .hljs[class~="lua" i]::before,.theme-dark .markup .hljs[class~="php" i]::before,
-.theme-dark .markup .hljs[class~="swift" i]::before,.theme-dark .markup .hljs[class~="makefile" i]::before,
-.theme-dark .markup .hljs[class~="go" i]::before,.theme-dark .markup .hljs[class~="ini" i]::before,
-.theme-dark .markup .hljs[class~="rust" i]::before,.theme-dark .markup .hljs[class~="prolog" i]::before,
-.theme-dark .markup .hljs[class~="ts" i]::before,.theme-dark .markup .hljs[class~="typescript" i]::before,
-.theme-dark .markup .hljs[class~="http" i]::before,.theme-dark .markup .hljs[class~="json" i]::before,
-.theme-dark .markup .hljs[class~="xml" i]::before,
-.theme-dark .markup .hljs[class~="less" i]::before{width: 100%;height: 16px;position: relative;display: -webkit-box;margin-top: 0px;color: #fff;border-top-left-radius: 3px;border-top-right-radius: 3px;border-bottom: 5px solid var(--dark);line-height: 14px !important;}
-.theme-dark .markup .hljs[class~="java" i],.theme-dark .markup .hljs[class~="sql" i],
-.theme-dark .markup .hljs[class~="ruby" i],.theme-dark .markup .hljs[class~="coffee" i],
-.theme-dark .markup .hljs[class~="xl" i],.theme-dark .markup .hljs[class~="py" i],
-.theme-dark .markup .hljs[class~="python" i],.theme-dark .markup .hljs[class~="html" i],
-.theme-dark .markup .hljs[class~="md" i],.theme-dark .markup .hljs[class~="markdown" i],
-.theme-dark .markup .hljs[class~="js" i],.theme-dark .markup .hljs[class~="javascript" i],
-.theme-dark .markup .hljs[class~="css" i],.theme-dark .markup .hljs[class~="bash" i],
-.theme-dark .markup .hljs[class~="vb" i],.theme-dark .markup .hljs[class~="visualbasic" i],
-.theme-dark .markup .hljs[class~="lua" i],.theme-dark .markup .hljs[class~="php" i],
-.theme-dark .markup .hljs[class~="swift" i],.theme-dark .markup .hljs[class~="makefile" i],
-.theme-dark .markup .hljs[class~="go" i],.theme-dark .markup .hljs[class~="ini" i],
-.theme-dark .markup .hljs[class~="rust" i],.theme-dark .markup .hljs[class~="prolog" i],
-.theme-dark .markup .hljs[class~="ts" i],.theme-dark .markup .hljs[class~="typescript" i],
-.theme-dark .markup .hljs[class~="http" i],.theme-dark .markup .hljs[class~="json" i],
-.theme-dark .markup .hljs[class~="xml" i],.theme-dark .markup .hljs[class~="less" i]{padding: 0px !important;}
-.theme-dark .markup .hljs[class~="js" i]::before,.theme-dark .markup .hljs[class~="javascript" i]::before{content: " Javascript";background: #165eab;}
-.theme-dark .markup .hljs[class~="css" i]::before{content: " Cascading Style Sheet";background: var(--color);}
-.theme-dark .markup .hljs[class~="bash" i]::before{content: " Bash";background: #ab1663;}
-.theme-dark .markup .hljs[class~="markdown" i]::before,.theme-dark .markup .hljs[class~="md" i]::before{content: " Markdown";background: #ab2e16;}
-.theme-dark .markup .hljs[class~="html" i]::before{content: " HTML";background: #16ab6f;}
-.theme-dark .markup .hljs[class~="xl" i]::before{content: " eXtensible Language";background: #4872a8;}
-.theme-dark .markup .hljs[class~="coffee" i]::before{content: " Coffee (Javascript)";background: #3a1b1b;}
-.theme-dark .markup .hljs[class~="ruby" i]::before{content: " Ruby";background: #e73e3e;}
-.theme-dark .markup .hljs[class~="sql" i]::before{content: " SQL";background: #4474ca;}
-.theme-dark .markup .hljs[class~="java" i]::before{content: " Java";background: #eb2d2f;}
-.theme-dark .markup .hljs[class~="py" i]::before,.theme-dark .markup .hljs[class~="python" i]::before{content: " Python";background: #1622ab;}
-.theme-dark .markup .hljs[class~="vb" i]::before,.theme-dark .markup .hljs[class~="visualbasic" i]::before{content: " Visual Basic";background: #839700;}
-.theme-dark .markup .hljs[class~="lua" i]::before{content: " Lua";background: #2ecc71;}
-.theme-dark .markup .hljs[class~="php" i]::before{content: " Php";background: #6e81b6;}
-.theme-dark .markup .hljs[class~="swift" i]::before{content: " Swift";background: #fd7837;}
-.theme-dark .markup .hljs[class~="makefile" i]::before{content: " Makefile";background: #8a2b0f;}
-.theme-dark .markup .hljs[class~="go" i]::before{content: " Go";background: #75cede;}
-.theme-dark .markup .hljs[class~="ini" i]::before{content: " ini";background: #5a75c0;}
-.theme-dark .markup .hljs[class~="rust" i]::before{content: " Rust";background: #000;}
-.theme-dark .markup .hljs[class~="prolog" i]::before{content: " Prolog";background: #ef4d25;}
-.theme-dark .markup .hljs[class~="ts" i]::before,.theme-dark .markup .hljs[class~="typescript" i]::before{content: " TypeScript";background: #03324c;}
-.theme-dark .markup .hljs[class~="http" i]::before{content: " HTTP";background: #618f10;}
-.theme-dark .markup .hljs[class~="json" i]::before{content: " Json";background: #108f66;}
-.theme-dark .markup .hljs[class~="xml" i]::before{content: " XML";background: #8444af;}
-.theme-dark .markup .hljs[class~="less" i]::before{content: " Less";background: #1d365d;}
+.theme-dark .markup-2BOw-j .hljs[class~="java" i]::before,.theme-dark .markup-2BOw-j .hljs[class~="sql" i]::before,
+.theme-dark .markup-2BOw-j .hljs[class~="ruby" i]::before,.theme-dark .markup-2BOw-j .hljs[class~="coffee" i]::before,
+.theme-dark .markup-2BOw-j .hljs[class~="xl" i]::before,.theme-dark .markup-2BOw-j .hljs[class~="py" i]::before,
+.theme-dark .markup-2BOw-j .hljs[class~="python" i]::before,.theme-dark .markup-2BOw-j .hljs[class~="html" i]::before,
+.theme-dark .markup-2BOw-j .hljs[class~="md" i]::before,.theme-dark .markup-2BOw-j .hljs[class~="markdown" i]::before,
+.theme-dark .markup-2BOw-j .hljs[class~="bash" i]::before,.theme-dark .markup-2BOw-j .hljs[class~="js" i]::before,
+.theme-dark .markup-2BOw-j .hljs[class~="javascript" i]:before,.theme-dark .markup-2BOw-j .hljs[class~="css" i]::before,
+.theme-dark .markup-2BOw-j .hljs[class~="vb" i]::before,.theme-dark .markup-2BOw-j .hljs[class~="visualbasic" i]::before,
+.theme-dark .markup-2BOw-j .hljs[class~="lua" i]::before,.theme-dark .markup-2BOw-j .hljs[class~="php" i]::before,
+.theme-dark .markup-2BOw-j .hljs[class~="swift" i]::before,.theme-dark .markup-2BOw-j .hljs[class~="makefile" i]::before,
+.theme-dark .markup-2BOw-j .hljs[class~="go" i]::before,.theme-dark .markup-2BOw-j .hljs[class~="ini" i]::before,
+.theme-dark .markup-2BOw-j .hljs[class~="rust" i]::before,.theme-dark .markup-2BOw-j .hljs[class~="prolog" i]::before,
+.theme-dark .markup-2BOw-j .hljs[class~="ts" i]::before,.theme-dark .markup-2BOw-j .hljs[class~="typescript" i]::before,
+.theme-dark .markup-2BOw-j .hljs[class~="http" i]::before,.theme-dark .markup-2BOw-j .hljs[class~="json" i]::before,
+.theme-dark .markup-2BOw-j .hljs[class~="xml" i]::before,
+.theme-dark .markup-2BOw-j .hljs[class~="less" i]::before{width: 100%;height: 16px;position: relative;display: -webkit-box;margin-top: 0px;color: #fff;border-top-left-radius: 3px;border-top-right-radius: 3px;border-bottom: 5px solid var(--dark);line-height: 14px !important;}
+.theme-dark .markup-2BOw-j .hljs[class~="java" i],.theme-dark .markup-2BOw-j .hljs[class~="sql" i],
+.theme-dark .markup-2BOw-j .hljs[class~="ruby" i],.theme-dark .markup-2BOw-j .hljs[class~="coffee" i],
+.theme-dark .markup-2BOw-j .hljs[class~="xl" i],.theme-dark .markup-2BOw-j .hljs[class~="py" i],
+.theme-dark .markup-2BOw-j .hljs[class~="python" i],.theme-dark .markup-2BOw-j .hljs[class~="html" i],
+.theme-dark .markup-2BOw-j .hljs[class~="md" i],.theme-dark .markup-2BOw-j .hljs[class~="markdown" i],
+.theme-dark .markup-2BOw-j .hljs[class~="js" i],.theme-dark .markup-2BOw-j .hljs[class~="javascript" i],
+.theme-dark .markup-2BOw-j .hljs[class~="css" i],.theme-dark .markup-2BOw-j .hljs[class~="bash" i],
+.theme-dark .markup-2BOw-j .hljs[class~="vb" i],.theme-dark .markup-2BOw-j .hljs[class~="visualbasic" i],
+.theme-dark .markup-2BOw-j .hljs[class~="lua" i],.theme-dark .markup-2BOw-j .hljs[class~="php" i],
+.theme-dark .markup-2BOw-j .hljs[class~="swift" i],.theme-dark .markup-2BOw-j .hljs[class~="makefile" i],
+.theme-dark .markup-2BOw-j .hljs[class~="go" i],.theme-dark .markup-2BOw-j .hljs[class~="ini" i],
+.theme-dark .markup-2BOw-j .hljs[class~="rust" i],.theme-dark .markup-2BOw-j .hljs[class~="prolog" i],
+.theme-dark .markup-2BOw-j .hljs[class~="ts" i],.theme-dark .markup-2BOw-j .hljs[class~="typescript" i],
+.theme-dark .markup-2BOw-j .hljs[class~="http" i],.theme-dark .markup-2BOw-j .hljs[class~="json" i],
+.theme-dark .markup-2BOw-j .hljs[class~="xml" i],.theme-dark .markup-2BOw-j .hljs[class~="less" i]{padding: 0px !important;}
+.theme-dark .markup-2BOw-j .hljs[class~="js" i]::before,.theme-dark .markup-2BOw-j .hljs[class~="javascript" i]::before{content: " Javascript";background: #165eab;}
+.theme-dark .markup-2BOw-j .hljs[class~="css" i]::before{content: " Cascading Style Sheet";background: var(--color);}
+.theme-dark .markup-2BOw-j .hljs[class~="bash" i]::before{content: " Bash";background: #ab1663;}
+.theme-dark .markup-2BOw-j .hljs[class~="markdown" i]::before,.theme-dark .markup-2BOw-j .hljs[class~="md" i]::before{content: " Markdown";background: #ab2e16;}
+.theme-dark .markup-2BOw-j .hljs[class~="html" i]::before{content: " HTML";background: #16ab6f;}
+.theme-dark .markup-2BOw-j .hljs[class~="xl" i]::before{content: " eXtensible Language";background: #4872a8;}
+.theme-dark .markup-2BOw-j .hljs[class~="coffee" i]::before{content: " Coffee (Javascript)";background: #3a1b1b;}
+.theme-dark .markup-2BOw-j .hljs[class~="ruby" i]::before{content: " Ruby";background: #e73e3e;}
+.theme-dark .markup-2BOw-j .hljs[class~="sql" i]::before{content: " SQL";background: #4474ca;}
+.theme-dark .markup-2BOw-j .hljs[class~="java" i]::before{content: " Java";background: #eb2d2f;}
+.theme-dark .markup-2BOw-j .hljs[class~="py" i]::before,.theme-dark .markup-2BOw-j .hljs[class~="python" i]::before{content: " Python";background: #1622ab;}
+.theme-dark .markup-2BOw-j .hljs[class~="vb" i]::before,.theme-dark .markup-2BOw-j .hljs[class~="visualbasic" i]::before{content: " Visual Basic";background: #839700;}
+.theme-dark .markup-2BOw-j .hljs[class~="lua" i]::before{content: " Lua";background: #2ecc71;}
+.theme-dark .markup-2BOw-j .hljs[class~="php" i]::before{content: " Php";background: #6e81b6;}
+.theme-dark .markup-2BOw-j .hljs[class~="swift" i]::before{content: " Swift";background: #fd7837;}
+.theme-dark .markup-2BOw-j .hljs[class~="makefile" i]::before{content: " Makefile";background: #8a2b0f;}
+.theme-dark .markup-2BOw-j .hljs[class~="go" i]::before{content: " Go";background: #75cede;}
+.theme-dark .markup-2BOw-j .hljs[class~="ini" i]::before{content: " ini";background: #5a75c0;}
+.theme-dark .markup-2BOw-j .hljs[class~="rust" i]::before{content: " Rust";background: #000;}
+.theme-dark .markup-2BOw-j .hljs[class~="prolog" i]::before{content: " Prolog";background: #ef4d25;}
+.theme-dark .markup-2BOw-j .hljs[class~="ts" i]::before,.theme-dark .markup-2BOw-j .hljs[class~="typescript" i]::before{content: " TypeScript";background: #03324c;}
+.theme-dark .markup-2BOw-j .hljs[class~="http" i]::before{content: " HTTP";background: #618f10;}
+.theme-dark .markup-2BOw-j .hljs[class~="json" i]::before{content: " Json";background: #108f66;}
+.theme-dark .markup-2BOw-j .hljs[class~="xml" i]::before{content: " XML";background: #8444af;}
+.theme-dark .markup-2BOw-j .hljs[class~="less" i]::before{content: " Less";background: #1d365d;}
 
 /* Vars/Trans Lists*/
-.containerCozy-jafyvG .comment .markup code.inline, .containerCozy-jafyvG .comment .markup pre, .theme-dark .friends-table .messages .containerCozy-jafyvG-blocked .containerCozy-jafyvG-blocked-btn:hover,
+.containerCozy-jafyvG .comment .markup-2BOw-j code.inline, .containerCozy-jafyvG .comment .markup-2BOw-j pre, .theme-dark .friends-table .messages .containerCozy-jafyvG-blocked .containerCozy-jafyvG-blocked-btn:hover,
 .containerCozy-jafyvG .mentioned .message-text, .search-bar-light .search-bar-clear:before, .slider-handle, .slider-handle span, .slider-bar, .user-popout .body, .links, 
 .sensitivity .slider .slider-bar-auto, .bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container, .bda-dark .emoji-picker, .bda-dark .emoji-picker .category,
 .bda-dark .emoji-picker .header .search-bar, .theme-dark .search-answer, .theme-dark .search-filter, #bda-qem-line-container .emote-menu-inner, #bda-qem-line-container .categories, 
@@ -1949,7 +1949,7 @@ code{background-color: rgba(0,0,0,0.6)!important;background-image: linear-gradie
 .app .guilds>div.guild:first-child:hover .badge, #user-profile-modal .guilds .avatar-large, .theme-dark .chat .jump-to-present-bar, .theme-dark .chat .jump-to-present-bar:hover, 
 .progress .progress-bar, .react-datepicker .react-datepicker__day.react-datepicker__day--today:after, #voice-debug-modal #users-section .user-list li:hover:before, #voice-debug-modal #users-section .user-list li.selected:before, 
 .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z, .bd-toast, .toast, .selectableItem-3PW5_y.selected-3MAwPR, .headerButtonColor-G7_f-V, .headerButtonColor-G7_f-V, .message .username-wrapper.popout-open,
-.activity-AFBUEw, .placeholderAvatar-uzH8f6, .placeholderUsername-236yYU, .theme-dark .markup .hljs[class~="css" i]::before, .radio .radio-inner span:after, .search-bar-tag, .ui-switch-checkbox:checked+.ui-switch, 
+.activity-AFBUEw, .placeholderAvatar-uzH8f6, .placeholderUsername-236yYU, .theme-dark .markup-2BOw-j .hljs[class~="css" i]::before, .radio .radio-inner span:after, .search-bar-tag, .ui-switch-checkbox:checked+.ui-switch, 
 .ui-slider .slider-bar-fill, .theme-dark .ui-settings-notice, .ui-selectable-item.selected, .theme-dark .ui-selectable-item:active, .ui-standard-sidebar-view #editor-detached button, 
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected:after, .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected:after, 
 .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected:hover, .calendarPicker-2yf6Ci .react-datepicker__day:hover, .region-select:hover button, .create-guild-container .action:hover.create .btn,
@@ -2280,7 +2280,7 @@ div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.dire
 .backdrop-1wrmKB {opacity: .4 !important}
 
 /*Compact Mode Compatibility*/
-.chat>.content .messages .containerCozy-jafyvG.hide-overflow.compact .markup{padding:0px 0px 0px 6rem;}
+.chat>.content .messages .containerCozy-jafyvG.hide-overflow.compact .markup-2BOw-j{padding:0px 0px 0px 6rem;}
 .theme-dark .containerCozy-jafyvG.compact .timestamp,.message-group.compact .message:not(.first) .timestamp {color: var(--text) !important}
 .theme-dark .containerCozy-jafyvG.compact.containerCozy-jafyvG {background: var(--trans2)}
 .containerCozy-jafyvG.compact .message.mentioned {padding-left: 6px !important}
