@@ -1648,7 +1648,7 @@ form.deprecated.auth-form,.auth-inner .auth-brand {background: rgba(0,0,0,0.4) !
 .theme-dark .chat .has-more button {background: var(--trans) !important;border: none !important;color: var(--color) !important;}
 
 .theme-dark .friends-table .messages .divider.divider-red>span,
-.theme-dark .messages-wrapper .messages .divider.divider-red>span {margin-top: 40px!important}
+.theme-dark .messages-wrapper .messages .divider.divider-red>span {margin-top: 0px!important}
 
 *:not([class*="hljs"]):not(code){font-family: var(--font)!important;}
 .markup-2BOw-j:not(code) {font-size: var(--font-size)!important;}
