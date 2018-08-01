@@ -1732,7 +1732,7 @@ Settings */
 .theme-dark .side-8zPYf6  .itemSelected-1qLhcL {background-color: var(--trans2)!important;border: 1px solid var(--color)}
 
 /* Dividers */
-.chat .divider>span{top:20px;color: var(--color) !important;font-size:12px;text-transform:uppercase;border-radius: 2px;background: var(--trans2) !important}
+.chat .divider>span{top:20px;color: var(--color) !important;font-size:16px;text-transform:uppercase;border-radius: 2px;background: var(--trans2) !important}
 .chat .divider.divider-red > span{color:#b12340 !important;background-color:var(--dark2) !important;border-radius:3px;text-align:center;left:0px;}
 .chat .divider.divider-red > span{background-color: var(--trans2) !important;color:var(--color) !important;}
 .chat .divider {height:18px;margin: 1px 300px 10px 300px ;background-color:transparent;min-width:90px !important}
@@ -2092,7 +2092,7 @@ code{background-color: rgba(0,0,0,0.6)!important;background-image: linear-gradie
 .nameMutedText-3Vj4bM, .nameMutedVoice-3oxyQZ,.colorMutedText-36M8WR, .colorMutedVoice-3ghIuw {opacity: 0.3;color: #fff;}
 
 .colorUnreadText-2t7XRb, .colorUnreadVoice-137o4S {opacity: 1;color: var(--accent)}
-.wrapper-232cHJ {line-height: 10px;padding: 2px 4px;background-color: var(--color);margin-left:-40px !important;border-radius: var(--round);}
+.wrapper-232cHJ {line-height: 10px;padding: 2px 4px;background-color: var(--color);border-radius: var(--round);}
 .contentHoveredText-2D9B-x .wrapper-232cHJ, .contentHoveredVoice-3p_NEO .wrapper-232cHJ {margin-left: 10px !important;}
 
 .iconDefault-3Gr8d2,.icon-1KK5se { opacity:1;color:white}
@@ -2173,25 +2173,28 @@ div.private-channels > div.scrollerWrap-2lJEkd.scrollerThemed-2oenus.themeGhostH
 #friends .friends-table .friends-row:hover .friends-column-name .avatar-small {opacity: 1;transform: scale(1) perspective(1px);box-shadow: none}
 #friends .friends-table .friends-row .friends-column-name .discord-tag {
   display: block;position: absolute;
-  top: 25px;left: 115px;
-  text-shadow: 1px 1px 1px hsl(0, 0%, 0%);}
+  top: 20px;left: 115px;text-shadow: 1px 1px 1px hsl(0, 0%, 0%);}
 #friends .friends-table .friends-row .friends-column-name .discord-tag .discriminator {visibility: visible;}
-#friends .friends-table .friends-row .friends-column-status {top: 0;  width: 100%; justify-content: center;height: 18px;}
 #friends .friends-table .friends-row .friends-column-status .online-2S838R,
 #friends .friends-table .friends-row .friends-column-status .idle-3DEnRT,
 #friends .friends-table .friends-row .friends-column-status .dnd-1_xrcq,
 #friends .friends-table .friends-row .friends-column-status .invisible-1kp8Z0,
 #friends .friends-table .friends-row .friends-column-status .streaming-2_dnHe,
-#friends .friends-table .friends-row .friends-column-status .offline-3qoTek {
-  width: 100%;left:0;height: 20px;
-  border-radius: 5px 5px 0 0 !important;position: absolute;
-  top: 0;opacity: 0.7;z-index: 0;}
-#friends .friends-table .friends-row:hover .friends-column-status .status {opacity: 0.9;}
+#friends .friends-table .friends-row .friends-column-status .offline-3qoTek,#friends .friends-table .friends-row .friends-column-status {
+  width: 100% !important;left:2px;justify-content: center;height:17px !important;
+  border-radius: 5px 5px 0 0 !important;top: 0;opacity: 0.7;z-index: 0}
+#friends .friends-table .friends-row:hover .friends-column-status .status {opacity: 1}
 #friends .friends-table .friends-row .friends-column-status .status-text {
   color: hsla(0, 0%, 0%, 0.6);
-  font-weight: 800 !important;max-width: 90%;
-  font-size: 12px;line-height: normal;
-  transition: color 300ms;z-index: 0;}
+  font-weight: 800 !important;
+  max-width: 90%;
+  font-size: 14px;
+  line-height: normal;
+  bottom:2px;
+  transition: color 300ms;
+  position:absolute;
+  z-index: 0;
+  }
 #friends .friends-table .friends-row:hover .friends-column-status .status-text {color: var(--color);opacity: 1}
 #friends .friends-table .friends-table-body .friends-row .friends-column-guilds {top: 80px;left: 115px;width: 150px;display: flex !important;}
 #friends .friends-table .friends-table-body .friends-row .friends-column-guilds .avatar-small {opacity: 0.8;transition: opacity 500ms;}
@@ -2540,7 +2543,7 @@ div.tooltips div.tooltip-right.tooltip-red strong:before {font-size: 14px;conten
 .guildsWrapper-5TJh6A .dms-rcsEnV{margin: auto;	display: flex;flex-flow: row wrap;width: auto;}
 .guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV .guild-1EfMGQ {left: 0;margin: 0 15px -5px 0;}
 .theme-dark .guildsWrapper-5TJh6A{margin-top: 45px !important;width: 110px;}
-.theme-dark .guilds-1q_RqH .friendsOnline-_wi_fM{color: var(--accent) !important;font-weight:800!important;font-size:10px !important;}
+.theme-dark .guilds-1q_RqH .friendsOnline-_wi_fM{color: var(--accent) !important;font-weight:800!important;font-size:10px !important;left:20px}
 .theme-dark .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .guildInner-3DSoA4:not(svg.homeIcon-1FoKUJ) {width:40px;border-radius:var(--round)!important;text-transform: capitalize;}
 .theme-dark .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .guildInner-3DSoA4 a {width:40px;height:40px;background-size:cover;color: var(--color);}
 .theme-dark .guildsWrapper-5TJh6A .guilds-1q_RqH .guildIcon-CT-ZDq,.guilds-wrapper .guilds-1q_RqH .friends-icon  {width:40px;height:40px;}
@@ -2554,8 +2557,9 @@ div.tooltips div.tooltip-right.tooltip-red strong:before {font-size: 14px;conten
     display: flex;flex-flow: row wrap;
 	align-content: space-between;}
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:not(.dms):first-child {animation: none;width: 113px;border-bottom: 1px solid var(--color);top: 0px;padding-bottom: 0px;position: fixed;left: -3px;margin-top: 0px !important;z-index: 2;}
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ {left:-4px;margin-right:8px;width:40px;height:46px;px;margin-left: 6px;margin-top:8px;}
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ {left:-4px;margin-right:8px;width:40px;height:44px;px;margin-left: 6px;margin-top:8px;}
 
+.chat .divider.divider-red{height:0;bottom:5px;}
 /* Animations */
 @keyframes button	{100%{transform:scale(.90)}50%{transform:scale(1)}} 
 @keyframes buttonM	{100%{transform:scale(.80)}50%{transform:scale(1)}} 
