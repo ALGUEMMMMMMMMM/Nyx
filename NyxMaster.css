@@ -2543,7 +2543,7 @@ div.tooltips div.tooltip-right.tooltip-red strong:before {font-size: 14px;conten
 .guildsWrapper-5TJh6A .dms-rcsEnV{margin: auto;	display: flex;flex-flow: row wrap;width: auto;}
 .guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV .guild-1EfMGQ {left: 0;margin: 0 15px -5px 0;}
 .theme-dark .guildsWrapper-5TJh6A{margin-top: 45px !important;width: 110px;}
-.theme-dark .guilds-1q_RqH .friendsOnline-_wi_fM{color: var(--accent) !important;font-weight:800!important;font-size:10px !important;left:20px}
+.theme-dark .guilds-1q_RqH .friendsOnline-_wi_fM{color: var(--accent) !important;font-weight:800!important;font-size:10px !important}
 .theme-dark .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .guildInner-3DSoA4:not(svg.homeIcon-1FoKUJ) {width:40px;border-radius:var(--round)!important;text-transform: capitalize;}
 .theme-dark .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .guildInner-3DSoA4 a {width:40px;height:40px;background-size:cover;color: var(--color);}
 .theme-dark .guildsWrapper-5TJh6A .guilds-1q_RqH .guildIcon-CT-ZDq,.guilds-wrapper .guilds-1q_RqH .friends-icon  {width:40px;height:40px;}
