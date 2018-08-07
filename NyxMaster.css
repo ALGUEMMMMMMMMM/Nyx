@@ -1,7 +1,3 @@
-.account{border-top:none !important;padding:0 15px !important;background:var(--dark);border-top: 2px solid #212121 !important;height: 72px;overflow: visible;z-index: 9;width: 310px;margin-left: -80px;box-sizing: border-box;}
-.account .btn{background:transparent;box-shadow:none !important;}
-.title-wrap{border-bottom:var(--dark) !important;background:var(--dark) !important;}
-
 .nameTag-3p0yK{font-size:15px;}
 .content-OzHfo4 .member-game{font-size:10px;}
 .settings .settings-header{background:#141417 !important;}
@@ -29,8 +25,6 @@ button.btn:hover{background-color:#151517;border-radius:3px;}
 .tab-bar.SIDE .tab-bar-item:before{border-left:3px solid var(--color);}
 
 .change-log-button-container .change-log-button{font-size:14px;}
-
-.settings .settings-actions{background-color:var(--dark2);border-top:1px solid var(--dark2);}
 
 .guild-channels ul .channel-text.unread:not(.selected):not(.channel-muted):before{left:-15px;}
 .guild-header header{box-shadow:none !important;color:var(--color);}
@@ -2314,8 +2308,8 @@ div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.dire
 ::-webkit-scrollbar,::-webkit-scrollbar-track-piece,::-webkit-scrollbar-thumb, ::-webkit-scrollbar-track {visibility:hidden !important}
 
 /* Other */
-.app,.auth-tiling-bg,.auth-background,.container-16j22k,.appMount-3VJmYg {background: var(--background) center/cover no-repeat;}
-
+.appMount-3VJmYg {background: var(--background) center/cover no-repeat;}
+.status-oxiHuE.animate-iYrs3- {transition:none !important}
 .bda-slist .bda-header {overflow:visible !important;border: none !important;padding-bottom: 0!important;}
 .bda-slist .bda-footer {border-top: 1px solid var(--color)!important;}
 .bda-slist .bda-description{color: var(--text)!important;border-top:1px solid var(--color);}
