@@ -20,7 +20,6 @@
 .theme-dark .input-2VB9rf {background-color: rgba(0,0,0,0.3) !important;}
 .keyboardShortcutsModal-3piNz7,.theme-dark .modal-3HOjGZ,.theme-dark .quickswitcher-3JagVE {background-color: rgba(0,0,0,0.8) !important;}
 
-
 .theme-dark .ui-search-bar {background-color: rgba(0,0,0,0.4) !important;border: 1px solid var(--color) !important;}
 .theme-dark.context-menu {background: rgba(0,0,0,0.8) !important;}
 .theme-dark.context-menu .item-subMenu:hover {background:url(https://discordapp.com/assets/e4afe52f6863408a35654a6e5fd69ba9.svg) 155px 50% no-repeat rgba(30,30,30,0.35)!important;}
@@ -38,10 +37,7 @@
 
 .theme-dark .searchPopout-1vUlP3 {box-shadow: none !important; margin-top: 11.5px !important;}
 
-.theme-dark .chat-3bRxxu form {background: rgba(0, 0, 0, 0) !important;border-top: 0px !important; margin: 0px !important;box-shadow:0 0px 0 transparent;border-right:none;}
-
 .theme-dark .card-7JP0BX {background-color: var(--trans2);box-shadow: 0 0 10px 1px var(--color) !important;color: var(--color);}
-.splash-iEbXaB {background: var(--trans);border-radius:20px}
 .theme-dark .header-1RC2Wb {background: var(--trans2)}
 
 /* ================================== UNSORTED ABOVE ================================== */
