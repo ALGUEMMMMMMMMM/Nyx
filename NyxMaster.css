@@ -1,12 +1,7 @@
 .nameTag-3p0yK{font-size:15px;}
 .content-OzHfo4 .member-game{font-size:10px;}
-.settings .settings-header{background:#141417 !important;}
-.user-settings-modal a:hover{color:var(--accent);}
 .tab-bar.SIDE{margin-right:-17px;}
 
-.account .btn-settings:after{opacity:0.2;}
-.account .btn-group{border:1px solid transparent;}
-.account .btn-deafen,.account .btn-mute{border-right:1px solid transparent;}
 button.btn:hover{background-color:#151517;border-radius:3px;}
 
 .bot-tag{background:var(--color);color:#e8e8e8!important;text-shadow: 0px 1px 3px #000;}
@@ -15,19 +10,8 @@ button.btn:hover{background-color:#151517;border-radius:3px;}
 
 .bot-tag.bot-tag-invert{background:var(--color);color:#e8e8e8!important;}
 
-.context-menu .item:hover{background:#18181b;color:#c7c7c7;}
-.context-menu .item{color:#adadad;}
-.theme-dark.context-menu .item-group{border-color:transparent;}
-.theme-dark.context-menu .item-subMenu{background:url(https://discordapp.com/assets/1988164a7c55346d32117b151f4e319d.svg) 155px 50% no-repeat #18181b;}
-.theme-dark.context-menu .item:hover{background:#131315;color:#fff;}
-.theme-dark.context-menu .item-subMenu:hover{background:url(https://discordapp.com/assets/e4afe52f6863408a35654a6e5fd69ba9.svg) 155px 50% no-repeat #131315;}
-
 .tab-bar.SIDE .tab-bar-item:before{border-left:3px solid var(--color);}
 
-.change-log-button-container .change-log-button{font-size:14px;}
-
-.guild-channels ul .channel-text.unread:not(.selected):not(.channel-muted):before{left:-15px;}
-.guild-header header{box-shadow:none !important;color:var(--color);}
 .popout.no-shadow{box-shadow:none!important;}
 .popout:not(.no-shadow) #bda-qem,.popout:not(.no-shadow) #bda-qem-twitch-container,.popout:not(.no-shadow) #bda-qem-favourite-container{display:block;}
 
@@ -41,8 +25,6 @@ button.btn:hover{background-color:#151517;border-radius:3px;}
 
 .radio .radio-inner{background:var(--dark2);border:1px solid var(--dark2);}
 
-.user-settings-security .btn-ghost{background:var(--dark2);border:2px solid var(--dark2);}
-.user-settings-security .btn-ghost:hover{background:var(--dark2);border-color:var(--dark2);}
 
 .tab-bar.SIDE .tab-bar-header{margin-left:24px;}
 .form hr{border-bottom:0px solid #f0f0f0;}
@@ -106,8 +88,6 @@ button.btn:hover{background-color:#151517;border-radius:3px;}
 
 .small-popout-box{background:#141417;border:1px solid #141417;}
 
-.option-popout .btn-item{color:#a2a2a2;}
-.option-popout .btn-item:hover{color:#c1c1c1;}
 
 .form .form-header{background:#0d0d0e;border-bottom:2px solid var(--color);}
 .form .control-group label a{color:var(--color);}
@@ -116,17 +96,6 @@ button.btn:hover{background-color:#151517;border-radius:3px;}
 .markdown-modal .scroller-wrap .scroller{background:var(--dark);color:#bdbdbd;}
 .markdown-modal{background-color:#141417;}
 .markdown-modal .markdown-modal-header{border-bottom:1px solid #141417;color:#efefef;text-transform:capitalize;}
-
-.guild-settings-modal-members .guild-settings-modal-members-header{border-bottom:2px solid var(--color);}
-.guild-settings-modal-members .guild-settings-modal-members-footer .help-text{color:#ababab;}
-.guild-settings-modal-members .guild-settings-modal-members-footer{border-top:2px solid var(--color);}
-.guild-settings-modal-members .guild-settings-modal-list .member .member-username{color:#e6e6e6;}
-.guild-settings-modal-members .member-buttons .btn.btn-danger{border:1px solid var(--dark2);}
-.guild-settings-modal-members .member-buttons .btn{background:var(--dark2);border:1px solid var(--dark2);color:#d6d6d6;}
-.guild-settings-modal-members .member-buttons .btn.btn-danger:hover{background:var(--color);color:#fff;}
-.guild-settings-modal-members .guild-settings-modal-list .member:hover{background:#141417;border-radius:3px;padding:0px 17px 0px 23px;}
-.guild-settings-modal-members .guild-settings-modal-list .member{padding:0px 17px 0px 23px;}
-.guild-settings-modal-members h6{color:#fff;}
 
 .search-bar.search-bar-light .search-bar-inner{background-color:var(--dark2);border:1px solid var(--dark2);}
 .search-bar.search-bar-light input{color:#b7b7b7;}
@@ -156,9 +125,6 @@ button.btn:hover{background-color:#151517;border-radius:3px;}
 .radio-theme label{border:4px solid #656565;}
 .radio-theme.dark label{width:500px;background-image:none;background:#141417;}
 .radio-theme.dark label::after{content:"If Light theme is enabled please click me to enable the Dark theme!";color:#fff;}
-
-.user-settings-locale p{color:#b1b1b1;}
-.user-settings-locale .select-item .primary,.user-settings-locale .select-item .localized{color:#c7c7c7!important;}
 
 .markdown-modal .markdown-modal-footer{border-top:1px solid #141417;color:#a5a5a5;background-color:#141417;}
 .markdown-modal ul li{color:#b3b3b3;}
