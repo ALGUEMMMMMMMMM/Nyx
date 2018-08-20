@@ -35,10 +35,9 @@
 .theme-dark .header-1RC2Wb {background: var(--trans2)}
 
 /* ================================== UNSORTED ABOVE ================================== */
-
 :root {
 	--light: hsla(0, 0%, 0%, 0.25); /* Overall brightness. 1= black, 0 = transparent */
-	--mc: hsla(268, 100%, 50%, 0.9);	/* Main theme colour. */
+	--mc: hsla(296, 100%, 50%, 0.9);	/* Main theme colour. */
 	--sb:hsl(297, 100%, 40%);    /* Scrollbar colour. Change .3 to 0 to hide scrollbar. */
 	--border: hsla(268, 100%, 50%, 0.9);	/* Border colour. Change .3 to 0 to hide borders. */
     --accent: hsl(297, 100%, 40%);
@@ -142,7 +141,7 @@
 
 /* Guilds */
 .homeIcon-1FoKUJ g{display:none}
-svg.homeIcon-1FoKUJ{background: var(--homeicon) no-repeat center/cover;position:relative;left:35px}
+svg.homeIcon-1FoKUJ{background: var(--homeicon) no-repeat center/cover;position:relative;left:40px;}
 .guildsWrapper-5TJh6A .guilds-1q_RqH svg.homeIcon-1FoKUJ:active {animation: buttonM 100ms}
 .guild-1EfMGQ:first-child .badge-1GsMF2{margin: 0 2px !important;background-color: rgba(0, 0, 0, 0.8);transition: .2s background-color linear}
 .guild-1EfMGQ:first-child:hover .badge-1GsMF2{background-color: var(--mc);transition: .2s background-color linear}
@@ -163,7 +162,7 @@ svg.homeIcon-1FoKUJ{background: var(--homeicon) no-repeat center/cover;position:
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .avatar-small {background-repeat: no-repeat;background-size: 40px 40px;height: 40px;width: 40px}
 div.tooltips div.tooltip-right.tooltip-red {font-size: 0;max-width: 208px}
 div.tooltips div.tooltip-right.tooltip-red strong:before {font-size: 14px;content: "You have servers unavailable due to the online usercap being reached or discord is having connection issues."}
-.guildsWrapper-5TJh6A .guilds-1q_RqH-error{background-color:var(--trans) !important;
+.guildsWrapper-5TJh6A .guildsError-3cFMtY{background-color:var(--trans) !important;
 	text-indent: 100%;white-space: nowrap;overflow: hidden;
 	width: 40px;height: 40px;border: 1px solid var(--border);
 	background: url(https://cdn.rawgit.com/satoru8/Icons/18071bd1/lock.svg) no-repeat center}
@@ -175,17 +174,17 @@ div.tooltips div.tooltip-right.tooltip-red strong:before {font-size: 14px;conten
     position: inherit !important;border-radius: 40px !important;width:40px !important;height:40px !important}
 .guildsWrapper-5TJh6A .dms-rcsEnV{margin: auto;	display: flex;flex-flow: row wrap;width: auto}
 .guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV .guild-1EfMGQ {left: 0;margin: 0 15px -5px 0}
-.theme-dark .guildsWrapper-5TJh6A{margin-top: 47px !important;width: 110px;}
+.theme-dark .guildsWrapper-5TJh6A{margin-top: 48px !important;width: 110px;}
 .theme-dark .guilds-1q_RqH .friendsOnline-_wi_fM{
-position: relative;bottom:5px;width:55%;height:1.7%;background-color:rgba(0, 0, 0, 0.78);
+position: relative;bottom:8px;width:55%;height:13px;background-color:rgba(0, 0, 0, 0.6);
 color: var(--accent) !important;font-weight:800!important;font-size:10px !important;left:-37px}
 .theme-dark .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .guildInner-3DSoA4:not(svg.homeIcon-1FoKUJ) {width:40px;border-radius:var(--round)!important;text-transform: capitalize}
 .theme-dark .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .guildInner-3DSoA4 a {width:40px;height:40px;background-size:cover;color: var(--mc)}
 .theme-dark .guildsWrapper-5TJh6A .guilds-1q_RqH .guildIcon-CT-ZDq,.guilds-wrapper .guilds-1q_RqH .friends-icon  {width:40px;height:40px}
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq .guildInner-3DSoA4{background-color:transparent}
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr::before {background: rgba(138, 142, 148, 0);box-shadow: 0px 0px 1px 1px var(--accent);left:15px;transform:scale(4)}
-.theme-dark .guild-1EfMGQ.selected-ML3OIq:before {background: rgba(0, 0, 0, 0);box-shadow: 0px 0px 1px 1px var(--accent);left:15px;height:40px;transform:scale(2);}
-.guild-1EfMGQ.unread-qLkInr.selected-ML3OIq:before {height: 10px;margin-top: -7px;transition: none}
+.theme-dark .guild-1EfMGQ.selected-ML3OIq .guildInner-3DSoA4{background-color:transparent}
+.theme-dark .guild-1EfMGQ.unread-qLkInr::before {background: rgba(138, 142, 148, 0);box-shadow: 0px 0px 1px 1px var(--accent);left:15px;transform:scale(4);}
+.theme-dark .guild-1EfMGQ.selected-ML3OIq:before {background: rgba(0, 0, 0, 0);border-radius:var(--round);box-shadow: 0px 0px 1px 1px var(--mc);left:10px;top:30px;height:20px;width:20px;transform:scale(2);}
+.guild-1EfMGQ.unread-qLkInr.selected-ML3OIq:before {transition: none;}
 .guildsWrapper-5TJh6A .guilds-1q_RqH {padding: 0 0 30px 6px !important;display: flex;flex-flow: row wrap}
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ:not(.dms):first-child {animation: none;width: 113px;border-bottom: 1px solid var(--border);top: -5px;padding-bottom: 4px;position: fixed;left: -3px!important;z-index: 2;}
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ {left:-4px;margin-right:8px;width:40px;height:44px;px;margin-left: 6px;margin-top:8px}
@@ -207,8 +206,6 @@ color: var(--accent) !important;font-weight:800!important;font-size:10px !import
 /* Channels */
 .unreadBar-3YD_k9 {box-shadow: 0 1px 3px var(--border)}
 .unread-1xRYoj {background-color: rgba(0, 0, 0, 0.9)}
-
-.containerDefault-3GGEv_, .containerDragAfter-3TEhpe, .containerDragBefore-3Dzc5x, .containerUserOver-1Tcb7l{padding-top:5px}
 
 .theme-dark .wrapper-2NJDcI {background-color: #000;border:1px solid var(--border);border-radius: 4px;color: #eaeaea}
 .theme-dark .addButtonIcon-3u-3Hu {opacity:1}
