@@ -276,7 +276,6 @@ color: var(--accent) !important;font-weight:800!important;font-size:10px !import
 .theme-dark .emojiPicker-3m1S-j .stickyHeader-1SS0JU {background: rgba(40, 40, 40, 0.9)}
 .theme-dark #bda-qem-twitch-container, .theme-dark #bda-qem-favourite-container {background: rgba(0, 0, 0, 0.8)}
 .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {background-color: var(--mc)}
-.theme-dark .containerCozy-jafyvG .embed{background:var(--trans2);border-color:var(--dark2);border-radius: 8px !important}
 
 .reactions-1xb2Ex{margin-top:0px !important;width:100%;flex:100%}
 .edit-message .channel-textarea-emoji {width: 40px;top: 2px;display: block}
@@ -287,53 +286,25 @@ color: var(--accent) !important;font-weight:800!important;font-size:10px !import
 .theme-dark #bda-qem{animation: sliding .5s;border:0!important;box-shadow:0 0 5px 1px var(--border) !important}
 #bda-qem-twitch,#bda-qem-favourite,#bda-qem-emojis{visibility:hidden}
 
-.no-shadow .emoji-picker{padding-left:2px;border-radius:3px 3px 0 0!important}
-.chat-3bRxxu .welcome-message .item-container .icon.exclamation, .chat-3bRxxu .welcome-message .item-container .icon.share, .chat-3bRxxu .welcome-message .item-container .icon.apps, .chat-3bRxxu .welcome-message .item-container .icon.mobile, .chat-3bRxxu .welcome-message .item-container .icon.twitter{background-image:url("https://i.imgur.com/DYPXksE.png");background-repeat:no-repeat;background-size:20px 20px;background-position:29px 13px}
-.bda-dark #bda-qem button{background:var(--dark2);border-left:1px solid var(--dark2);box-shadow:var(--dark2) 1px 0 0 0}
-.bda-dark #bda-qem{border-bottom:0px solid transparent!important;background:var(--dark2)}
-.emoji-picker{border:1px solid var(--dark) !important;border-top:0px solid transparent !important}
-.emoji-picker .scroller .emoji-item.selected{background-position:center center !important;background-repeat:no-repeat !important;-webkit-background-size:contain !important;-moz-background-size:contain !important;background-size:contain !important}
-.bda-dark .emoji-picker .dimmer.visible{background-color:rgba(0,0,0,0.65);z-index:2}
-.bda-dark .emoji-picker .diversity-selector .popout{background:var(--dark2);border-color:var(--dark2)}
-.emoji-picker{border:1px solid var(--dark)}
-.emoji-picker .search-bar input,.emoji-picker .search-bar input::-webkit-input-placeholder,.emoji-picker .search-bar input::placeholder{color:#fff}
-.emoji-picker .dimmer{z-index:2}
-
-.emoji-picker .category{height:21px;color:#bbb;border-radius:2px;text-align:center;color:var(--mc);font-size:11px;font-weight:700;line-height:21px;text-transform:uppercase;letter-spacing:.08em}
 .channel-textarea-emoji{-webkit-transition: all 100ms ease;transition: all 100ms ease;width: 80px;margin: 0;height: 100%}
 .upload-modal .inner .comment .channel-textarea .channel-textarea-inner .channel-textarea-emoji {margin: -7px -5px -12px 10px;height: 41px;width: 45px}
-.emoji-picker .header { border-bottom: 2px solid var(--border)}
 .theme-dark .channel-textarea-emoji{position: relative}
-.emoji-picker .dimmer.visible{background-color:rgba(255,255,255,0.8);height:270px;bottom:0px}
 .emojiButton-38mF6t{top:26px}
 .theme-dark .upload-modal .emojiButton-38mF6t{top: 11px !important}
 .theme-dark .edit-message .emojiButton-38mF6t{top: 11px !important}
 .emojiPicker-3m1S-j .stickyHeader-3LjM5X {background: none !important}
 .containerCozy-jafyvG .reaction-1ELvT8  {background: none;position: relative}
-.containerCozy-jafyvG .reaction-1ELvT8 ,.message-group .reaction-1ELvT8  .emoji {border: none;padding: 4px;width: 25px;height: 24px;margin-bottom: 0px!important}
-.containerCozy-jafyvG .reaction-1ELvT8  .emoji {margin: 0 3px!important;background: none;position:relative}
-.containerCozy-jafyvG .reaction-1ELvT8  {width: 32px;height: 32px;padding: 0;margin-right: 4px;transform: none!important}
-.theme-dark .containerCozy-jafyvG .reaction-1ELvT8  .reactionCount-2ddRoS {position: absolute!important;color: #fff;opacity: 1;left: 8px;font-size: 11px;letter-spacing: 0;margin: 0 auto;z-index: 5;display: block;min-width: 32px!important}
 .containerCozy-jafyvG .reactions-1xb2Ex .reactionBtn-2na4rd {visibility: visible;opacity: 0.8!important;margin-top: -16px}
 .containerCozy-jafyvG .reaction-1ELvT8 ::before,.message-group .reaction-1ELvT8 ::after {content: "";display: block;position: absolute;border-radius: 30%;opacity: 0}
 .containerCozy-jafyvG .reaction-1ELvT8 .reactionMe-23mbRf::after {top: 1px;left: 1px;width: 30px;height: 30px;-webkit-box-shadow: 0 0 5px 1px var(--border);opacity: 1}
 .theme-dark .reaction-1ELvT8  .reactionCount-2ddRoS{color: #bbbbbb}
+
 .theme-brand .emojiButton-38mF6t{top: 10px}
 .theme-dark .modal-1UGdnR .emojiButtonNormal-2yO7yT.emojiButton-3c_qrT.emojiButton-38mF6t {top: 10px}
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S { border-bottom-color: var(--border)}
 .emojiPicker-3m1S-j .category-2U57w6 {color: var(--accent);font-size: 12px;font-weight: 600;text-align: center;line-height: 12px;text-align-last: center;height: auto;border:1px solid var(--border)}
 .emojiPicker-3m1S-j,#bda-qem-twitch-container, #bda-qem-favourite-container {animation: sliding .5s;box-shadow:0 0 5px 1px var(--border) !important;max-width: 340px;background-color: rgba(0,0,0,0.7);border: none;border-radius: 0px}
 .emoji.jumboable {height: auto; width: 40px;max-height: 40px}
-.emoji-picker,.emoji-picker .sticky-header,.emoji-picker .search-bar{background-color: rgba(0,0,0,0.65);border-color: #000 !important}
-.emoji-picker .search-bar{background-color: transparent !important}
-.emoji-picker .search-bar .search-bar-inner{background-color: transparent;border-color: transparent}
-.emoji-picker .dimmer.visible{background-color: rgba(0,0,0,0.8);margin-left: -2px}
-.emoji-picker,.emoji-picker .sticky-header{background-color: rgba(0,0,0,0.6) !important}
-.emoji-picker .category {background-color:rgba(0,0,0,0.8) !important}
-.emoji-picker .header .search-bar {padding: 0px !important}
-.emoji-picker .category{letter-spacing: .08em;width: 100%;margin-left: -10px;border-radius: 0px !important}
-.sticky-header .category{margin-left: -1px !important}
-.emoji-picker .header{width: 100%;margin-left: -1px}
 .emojiPicker-3g68GS {background-color: rgba(0,0,0,0.7) !important;border: none !important}
 .emojiPicker-3g68GS .category-3rCtoh {line-height: 12px;text-align: center}
 .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {background-color: rgba(0, 0, 0, 0)}
