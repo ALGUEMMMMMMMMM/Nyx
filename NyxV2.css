@@ -1,3 +1,30 @@
+:root {
+	--light: hsla(0, 0%, 0%, 0.25); /* Overall brightness. 1= black, 0 = transparent */
+	--mc: hsla(296, 100%, 50%, 0.9);	/* Main theme colour. */
+	--sb:hsl(297, 100%, 40%);    /* Scrollbar colour. Change .3 to 0 to hide scrollbar. */
+	--border: hsla(268, 100%, 50%, 0.9);	/* Border colour. Change .3 to 0 to hide borders. */
+    --accent: hsl(297, 100%, 40%);
+    --trans:    hsla(0, 0%, 0%, 0.6);                   
+	--trans2: hsla(0, 0%, 0%, 0.9);
+	--text: #ccc;	/* Chat text colour */
+	--msg:hsla(0, 0%, 0%, 0.7);					        /* Msg box background darkness */
+	--round: 30%;	/* Icon Roundness. Pfps/Guilds 50% round, 5% Square. */
+	--profileradius: 0px; /* 0 is normal squared edges. Up to 45px for rounded profiles. */
+	--homeicon: url(https://cdn.rawgit.com/satoru8/Icons/215bf4c4/menu24.png); /* Custom Home Icon. */
+	--font: sans-serif;	
+	--fsize: 13px;	/* Font Size */
+    --block: ;  /* Default - none */
+    --cb: 10px;                                           /*Change chatbox style*/
+	--cbround: 5px;                                       /* Chatbox roundness */
+	
+	--size1: 65px; /* Chat Avatar Size */
+	--margin1: -17px; /* Left/Right */
+	--margin2: -5px; /* Top/Bottom */
+	--shadow1: 0 0 2px #000; /* Shadow for transparent themes. */	
+}
+.appMount-3VJmYg {background: url(https://images8.alphacoders.com/485/485164.jpg) center/cover no-repeat}
+
+/* Unsorted */
 .uploadModal-2ifh8j .inner-3nWsbo .comment-4IWttf .label-3aiqT2{ text-align: center}
 .theme-dark .inner-zqa7da {background-color: var(--trans2);box-shadow: 0 0 5px 1px var(--border);margin: 6px 6px 4px 3px }
 
@@ -34,35 +61,6 @@
 .theme-dark .card-7JP0BX {background-color: var(--trans2);box-shadow: 0 0 10px 1px var(--border) !important;color: var(--mc)}
 .theme-dark .header-1RC2Wb {background: var(--trans2)}
 
-/* ================================== UNSORTED ABOVE ================================== */
-:root {
-	--light: hsla(0, 0%, 0%, 0.25); /* Overall brightness. 1= black, 0 = transparent */
-	--mc: hsla(296, 100%, 50%, 0.9);	/* Main theme colour. */
-	--sb:hsl(297, 100%, 40%);    /* Scrollbar colour. Change .3 to 0 to hide scrollbar. */
-	--border: hsla(268, 100%, 50%, 0.9);	/* Border colour. Change .3 to 0 to hide borders. */
-    --accent: hsl(297, 100%, 40%);
-    --trans:    hsla(0, 0%, 0%, 0.6);                   
-	--trans2: hsla(0, 0%, 0%, 0.9);
-	--text: #ccc;	/* Chat text colour */
-	--msg:hsla(0, 0%, 0%, 0.7);					        /* Msg box background darkness */
-	--round: 30%;	/* Icon Roundness. Pfps/Guilds 50% round, 5% Square. */
-	--profileradius: 0px; /* 0 is normal squared edges. Up to 45px for rounded profiles. */
-	--homeicon: url(https://cdn.rawgit.com/satoru8/Icons/215bf4c4/menu24.png); /* Custom Home Icon. */
-	--font: sans-serif;	
-	--fsize: 13px;	/* Font Size */
-    --block: ;  /* Default - none */
-    --cb: 10px;                                           /*Change chatbox style*/
-	--cbround: 5px;                                       /* Chatbox roundness */
-	
-	--size1: 65px; /* Chat Avatar Size */
-	--margin1: -17px; /* Left/Right */
-	--margin2: -5px; /* Top/Bottom */
-	--shadow1: 0 0 2px #000; /* Shadow for transparent themes. */	
-}
-.appMount-3VJmYg {background: url(https://images8.alphacoders.com/485/485164.jpg) center/cover no-repeat}
-
-
-/* Unsorted */
 .bda-slist .bda-header {overflow:visible !important;border: none !important;padding-bottom: 0!important}
 .bda-slist .bda-footer {border-top: 1px solid var(--border)!important}
 .bda-slist .bda-description{color: var(--text)!important;border-top:1px solid var(--border)}
@@ -74,9 +72,6 @@
 .iconBadge-2dji3k {height: 6px;width:6px;position:absolute;right: 93px;top: 10px}
 .roleInner-1C_Scc {overflow: visible}
 
-
-*:not([class*="hljs"]):not(code){font-family: var(--font)!important}
-.markup-2BOw-j:not(code) {font-size: var(--font-size)!important}
 
 /* Scrollbars */
 ::-webkit-scrollbar {width: 8px !important}
@@ -385,7 +380,6 @@ color: var(--accent) !important;font-weight:800!important;font-size:10px !import
 
 .theme-dark #friends .friends-column-status .unknown-Ms2zdV {background-color: rgba(0, 0, 0, 0) !important;border:2px solid #000}
 
-
 /* Menus */
 .theme-dark .everyonePopout-nEbJY3 {background-color: rgba(0, 0, 0, 0.9);border: 1px solid var(--border)}
 .theme-dark .footer-2aTx0s {border-top:1px solid var(--border)}
@@ -489,7 +483,6 @@ color: var(--accent) !important;font-weight:800!important;font-size:10px !import
     background: rgba(0, 0, 0, 0.8);border: 5%;top:1px;position:relative;box-shadow: 0 0 2px 1px var(--border)}
 
 
-
 /* Tooltips & stuff */
 .theme-dark.contextMenu-HLZMGh {background: rgba(10, 10, 10, 0.98);box-shadow:0 0 1px 1px var(--border)}
 .theme-dark.contextMenu-HLZMGh .item-1Yvehc {color: #eee}
@@ -533,6 +526,8 @@ color: var(--accent) !important;font-weight:800!important;font-size:10px !import
     border-radius:var(--cbround)}
 .messagesWrapper-3lZDfY .containerCozy-jafyvG:hover {background: var(--trans2);box-shadow: 0px 0px 10px 1px var(--mc)}
 
+*:not([class*="hljs"]):not(code){font-family: var(--font)!important}
+.markup-2BOw-j:not(code) {font-size: var(--font-size)!important}
 .theme-dark .chat-3bRxxu .newMessagesBar-mujexs {background-color: var(--trans2);box-shadow:0 0 5px var(--accent)}
 .theme-dark .markup-2BOw-j pre,.theme-dark .markup-2BOw-j code, .theme-dark .markup-2BOw-j code.inline {background: rgba(0,0,0,.85);box-shadow:0 0 3px 1px var(--border);border:none;color:#eee}
 .theme-dark .selectorSelected-1_M1WV {background-color: var(--mc) !important}
