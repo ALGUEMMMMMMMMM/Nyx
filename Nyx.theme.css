@@ -1,13 +1,12 @@
-//META{"name":"Nyx","description":"A simple yet complex theme. Please use the support server listed below if you need any help.","author":"Satoru","version":"0.8.4","website":"http://discord.gg/fjvwb95"}*//{}
+//META{"name":"Nyx","description":"A simple yet complex theme. Please use the support server listed below if you need any help.","author":"Satoru","version":"0.9","website":"http://discord.gg/fjvwb95"}*//{}
 
 /* === Please use Notepad++ or your preferred source editor, to view this properly. ===
 
 Imports below are groups of google fonts. By default they are disabled except for the font in use.
-Simply swap the url you need with the uncommented line. */
+Simply swap the url you need with the uncommented line. 
+*/
 
-
-
-@import url(https://satoru8.github.io/Nyx/NyxMaster.css);
+@import url(https://satoru8.github.io/Nyx/Nyx.css);
 /*@import url(https://tinyurl.com/ybc8tm5o);
 @import url(https://tinyurl.com/y9ek2awo);
 @import url(https://tinyurl.com/ycdgtcef);
@@ -15,23 +14,30 @@ Simply swap the url you need with the uncommented line. */
 @import url(https://tinyurl.com/ybuqovun);
 
 :root {
-    --background: url(https://images2.alphacoders.com/581/581898.jpg);  /*  Background. */
-	--font:	'Lato', sans-serif;
-	--font-size: 16px;
-	--text:  #fff;										/* Chat text color */
-	--cb: 10px;                                           /*Change chatbox style*/
-	--cbround: 7px;                                       /* Chatbox roundness */
-	--msg:rgba(0, 0, 0, 0.3);					        /* Msg background darkness */
-    --color: hsla(268, 100%, 50%, 0.9);                   /*Main Color*/
-    --accent: hsl(297, 100%, 40%);                      /*Accent Color*/  	
-    --trans: rgba(0, 0, 0, 0.3);                        /*Darkness*/
-	--round: 50%;                                       /*Icon Roundness*/
-    --msgblock: content;                                /* "none" will hide, "content" will show */
-	/* Below this line should not be changed.*/
-	--dark: rgb(24, 24, 27);
-    --dark2: rgb(17, 17, 18);
-	--trans2: rgba(0, 0, 0, 0.8);
+	--light: hsla(0, 0%, 0%, 0.25); /* Overall brightness. 1= black, 0 = transparent */
+	--mc: hsla(296, 100%, 50%, 0.9);	/* Main theme colour. */
+	--sb:hsl(297, 100%, 40%);    /* Scrollbar colour. Change .3 to 0 to hide scrollbar. */
+	--border: hsla(268, 100%, 50%, 0.9);	/* Border colour. Change .3 to 0 to hide borders. */
+    --accent: hsl(297, 100%, 40%);
+    --trans:    hsla(0, 0%, 0%, 0.6);                   
+	--trans2: hsla(0, 0%, 0%, 0.9);
+	--text: #ccc;	/* Chat text colour */
+	--msg:hsla(0, 0%, 0%, 0.7);					        /* Msg box background darkness */
+	--round: 30%;	/* Icon Roundness. Pfps/Guilds 50% round, 5% Square. */
+	--profileradius: 0px; /* 0 is normal squared edges. Up to 45px for rounded profiles. */
+	--homeicon: url(https://cdn.rawgit.com/satoru8/Icons/215bf4c4/menu24.png); /* Custom Home Icon. */
+	--font: 'Lato', sans-serif;
+	--fsize: 13px;	/* Font Size */
+    --block: ;  /* Default - none */
+    --cb: 10px;                                           /*Change chatbox style*/
+	--cbround: 5px;                                       /* Chatbox roundness */
+	
+	--size1: 65px; /* Chat Avatar Size */
+	--margin1: -17px; /* Left/Right */
+	--margin2: -5px; /* Top/Bottom */
+	--shadow1: 0 0 2px #000; /* Shadow for transparent themes. */	
 }
+.appMount-3VJmYg {background: url(https://images8.alphacoders.com/485/485164.jpg) center/cover no-repeat}
 
  /* Backgrounds -
 You can use one of these if you dont feel like using your own.
