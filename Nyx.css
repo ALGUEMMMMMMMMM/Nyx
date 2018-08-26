@@ -644,8 +644,8 @@ body,span:not(.spinner-item){-webkit-backface-visibility:hidden}
 .tutorial-indicators::after, .help-container, .theme-dark .divider-2PMBlV, .change-log-button-container:before,
 .chat-3bRxxu>.title-wrap>.topic:before, #user-profile-modal .guilds-1q_RqH .guild-1EfMGQ .guild-name .discriminator,
 button.bd-customicon-settings, .search-results-wrap .search-result:after, .search-results-wrap .search-result:before,
-.streaming>.creation-date-wrapper, .chat-3bRxxu .jumpToPresentBar-9P20AM button:first-child, .chat-3bRxxu .divider-3gKybi:before, 
-.user-popout .footer .update-notice, .popout-menu-item > .status-icon-text > .status, .popout.popout-top section:after, 
+.chat-3bRxxu .jumpToPresentBar-9P20AM button:first-child, .chat-3bRxxu .divider-3gKybi:before, 
+.popout.popout-top section:after, 
 .popout.popout-top-right section:after, .create-guild-container .create-or-join .actions .or, .radio-theme.light, 
 .guilds-1q_RqH li .guildInner-3DSoA4:before,div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6 > svg:nth-child(7), 
 .theme-dark .divider-2PMBlV, .emojiPicker-3m1S-j .stickyHeader-1SS0JU, .side-8zPYf6 .separator-gCa7yv, .theme-dark .embedPill-1Zntps, 
@@ -697,12 +697,11 @@ div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.dire
 /*Status Chooser */
 .popout-3sVMXz.popoutTop-3uu9vG-left {box-shadow: none}
 
-.menu-Sp6bN1.alt-3btY0e {
+.menu-Sp6bN1.alt-3btY0e {box-shadow:none;
     display:inline-block;animation-fill-mode: forwards;
-    margin: 10px;background:rgba(0, 0, 0, 0.85);
-    border-radius: 10px;position: fixed;pointer-events: inherit;
-    left: 10px;bottom: 0;width: auto;z-index: 10;
-    transform: translate3d(0,0,0) !important}
+    margin: 10px;background:rgba(0, 0, 0, 0.8);
+    border-radius: 10px;position: relative;pointer-events: inherit;
+    left: -10px;top: 20px;width: auto;z-index: 1000}
 .menu-Sp6bN1.alt-3btY0e .item-1GzJrl {
     padding: 15px;margin-left: 0;
     border-radius: 3px;width: auto;
