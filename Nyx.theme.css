@@ -1,4 +1,4 @@
-//META{"name":"Nyx","description":"A simple yet complex theme. Please use the support server listed below if you need any help.","author":"Satoru","version":"0.9","website":"http://discord.gg/fjvwb95"}*//{}
+//META{"name":"Nyx","description":"A simple yet complex theme. Please use the support server listed below if you need any help.","author":"Satoru","version":"0.9.5","website":"http://discord.gg/fjvwb95"}*//{}
 
 /* === Please use Notepad++ or your preferred source editor, to view this properly. ===
 
@@ -12,6 +12,12 @@ Simply swap the url you need with the uncommented line.
 @import url(https://tinyurl.com/ycdgtcef);
 @import url(https://tinyurl.com/yapa5uq5); */
 @import url(https://tinyurl.com/ybuqovun);
+@import url(https://satoru8.github.io/Addons/TitleBar/Titlebar.css);
+@import url(https://satoru8.github.io/Addons/FriendsList.css);
+@import url(https://satoru8.github.io/Addons/Library.css);
+@import url(https://satoru8.github.io/FullSizePfp/FullSizePfp.css);
+@import url(https://satoru8.github.io/Addons/AniEmoji.css);
+@import url(https://satoru8.github.io/Addons/CodeBlocks.css);
 
 :root {
 	--light: hsla(0, 0%, 0%, 0.25); /* Overall brightness. 1= black, 0 = transparent */
@@ -30,12 +36,16 @@ Simply swap the url you need with the uncommented line.
 	--fsize: 13px;	/* Font Size */
     --block: ;  /* Default - none */
     --cb: 10px;                                           /*Change chatbox style*/
-	--cbround: 5px;                                       /* Chatbox roundness */
-	
-	--size1: 65px; /* Chat Avatar Size */
-	--margin1: -17px; /* Left/Right */
-	--margin2: -5px; /* Top/Bottom */
-	--shadow1: 0 0 2px #000; /* Shadow for transparent themes. */	
+	--cbround: 5px;                                      /* Chatbox roundness */
+
+	--bg1: rgba(0,0,0, .5);	/* Library Background transparency/colour */
+    --bc1:hsla(0, 100%, 50%, .6);	/* Library Box-shadow  */
+
+	--size1: 60px; /* Avatar Size */
+	--round1: 5%;  /* Avatar roundness 50% Circle. */
+	--margin1: 0px; /* Margin left/right */
+	--margin2: 3px; /* Margin top/bottom */
+	--shadow1: 0 0 1px #000; /* Shadow for transparent themes. */
 }
 .appMount-3VJmYg {background: url(https://images8.alphacoders.com/485/485164.jpg) center/cover no-repeat}
 
