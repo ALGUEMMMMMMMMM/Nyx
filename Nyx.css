@@ -71,6 +71,9 @@
 .theme-dark .tabBarContainer-1s1u-z {border-top:none;padding-left: 130px;}
 
 /* Member List */
+.userPopout-3XzG_A .avatarWrapper-3H_478, .userPopout-3XzG_A .wrapper-2F3Zv8,
+#app-mount .userPopout-3XzG_A .avatarWrapper-3H_478 .image-33JSyf,
+#app-mount .userPopout-3XzG_A .avatarWrapper-3H_478 .statusProfile-3ynqtt {border-radius:0!important}
 .userPopout-3XzG_A  {animation: popout  .7s}
 .theme-dark .memberOnline-1CIh-0 {color: #ddd}
 .theme-dark .username-1cB_5E {line-height:19px;width:100%}
@@ -567,7 +570,9 @@ div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.dire
 .theme-dark #friends .friends-table .friends-table-header .friends-column-separator { background-color: var(--border)}
 .theme-dark .privateChannels-1nO12o header {color: #ccc;font-size: 16px;font-weight: bold;opacity: 1;text-transform: capitalize;text-align:center}
 .theme-dark .privateChannels-1nO12o .channel-2QD9_O .name-2WpE7M {color: #ccc;font-size: 14px;font-weight: bold;opacity: 1}
-.theme-dark .headerBar-UHpsPw,.theme-dark .privateChannels-1nO12o .search-bar {box-shadow:none;border-bottom:1px solid var(--border);background:transparent}
+.theme-dark .headerBar-UHpsPw{box-shadow:0 1px 0 var(--border);background:transparent}
+.theme-dark .privateChannels-1nO12o .search-bar {background:transparent;box-shadow:0 0 3px 1px var(--border)}
+.theme-dark .privateChannels-1nO12o .searchBar-6Kv8R2 {box-shadow: 0 1px 0 var(--border)}
 .theme-dark #friends .tab-bar {font-weight: bold}
 .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary {background-color: #ccc;color: #000}
 .theme-dark #friends .tab-bar .tab-bar-item {background-color:rgba(0, 0, 0, 0.8);color: #eee;margin: 0 4px;padding: 0 4px}
