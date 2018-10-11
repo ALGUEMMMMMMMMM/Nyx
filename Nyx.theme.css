@@ -38,13 +38,13 @@ Simply swap the url you need with the uncommented line.
 	--homeicon: url(https://cdn.rawgit.com/satoru8/Icons/215bf4c4/menu24.png); /* Custom Home Icon. */
 	--font: 'Lato', sans-serif;
 	--fsize: 13px;	/* Font Size */
-    --block: ;  /* Default - none */
+    --block: none ;  /* Default - none, Show - contents */
     --cb: 10px;                                           /*Change chatbox style*/
 	--cbround: 5px;                                      /* Chatbox roundness */
 
 	--bg1: rgba(0,0,0, .5);	/* Library Background transparency/colour */
     --bc1:hsla(0, 100%, 50%, .6);	/* Library Box-shadow  */
-    --bg: rgba(0,0,0,.9); /*Status Chooser background */
+    --bg: rgba(0, 0, 0, .9); /*Status Chooser background */
     
 	--size1: 60px; /* Avatar Size */
 	--round1: 5%;  /* Avatar roundness 50% Circle. */
