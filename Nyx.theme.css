@@ -7,10 +7,12 @@ Simply swap the url you need with the uncommented line.
 */
 
 @import url(https://satoru8.github.io/Nyx/Nyx.css);
-/*@import url(https://tinyurl.com/ybc8tm5o);
+/* 
+@import url(https://tinyurl.com/ybc8tm5o);
 @import url(https://tinyurl.com/y9ek2awo);
 @import url(https://tinyurl.com/ycdgtcef);
-@import url(https://tinyurl.com/yapa5uq5); */
+@import url(https://tinyurl.com/yapa5uq5); 
+*/
 @import url(https://tinyurl.com/ybuqovun);
 @import url(https://satoru8.github.io/Addons/TitleBar/Titlebar.css);
 @import url(https://satoru8.github.io/Addons/FriendsList.css);
@@ -18,6 +20,8 @@ Simply swap the url you need with the uncommented line.
 @import url(https://satoru8.github.io/FullSizePfp/FullSizePfp.css);
 @import url(https://satoru8.github.io/Addons/AniEmoji.css);
 @import url(https://satoru8.github.io/Addons/CodeBlocks.css);
+@import url(https://satoru8.github.io/NovaFork/GlowNova.css);
+@import url(https://satoru8.github.io/Addons/StatusChooser.css);
 
 :root {
 	--light: hsla(0, 0%, 0%, 0.25); /* Overall brightness. 1= black, 0 = transparent */
@@ -40,7 +44,8 @@ Simply swap the url you need with the uncommented line.
 
 	--bg1: rgba(0,0,0, .5);	/* Library Background transparency/colour */
     --bc1:hsla(0, 100%, 50%, .6);	/* Library Box-shadow  */
-
+    --bg: rgba(0,0,0,.9); /*Status Chooser background */
+    
 	--size1: 60px; /* Avatar Size */
 	--round1: 5%;  /* Avatar roundness 50% Circle. */
 	--margin1: 0px; /* Margin left/right */
