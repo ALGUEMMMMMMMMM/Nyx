@@ -185,7 +185,7 @@ color: var(--accent) !important;font-weight:800!important;font-size:10px !import
 .theme-dark svg.addButtonIcon-3u-3Hu polygon {fill: #fff}
 .theme-dark .button-1w5pas path:nth-child(n + 2){stroke: #fff}
 .theme-dark .name-3M0b8v{ font-size: 14px}
-.theme-dark .topic-2QX7LI,.theme-dark .container-2Thooq,.accountDetails-3k9g4n .discriminator {color: #fff;opacity:1;font-weight:bold}
+.theme-dark .topic-2QX7LI,.theme-dark .container-2Thooq,.accountDetails-3k9g4n .discriminator {color: #fff;opacity:1}
 .theme-dark .header-2o-2hj {color:#ddd;font-weight:bold;box-shadow:0 0 0 transparent;border-bottom:1px solid var(--border);top:1px}
 .theme-dark .nameDefault-2s3kbY, .theme-dark .nameHovered-21k1eo, .theme-dark .nameSpeaking-3UhoEZ {color: #fff !important}
 .theme-dark .nameHovered-21k1eo{background-color: rgba(39, 39, 39, 1)}
