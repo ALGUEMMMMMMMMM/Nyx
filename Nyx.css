@@ -1,6 +1,5 @@
 /* Unsorted */
 .uploadModal-2ifh8j .inner-3nWsbo .comment-4IWttf .label-3aiqT2{ text-align: center}
-.theme-dark .inner-zqa7da {background-color: var(--trans2);box-shadow: 0 0 5px 1px var(--border);margin: 6px 6px 4px 3px }
 
 .theme-dark .headerBar-cxbhPD {-webkit-box-shadow: 0 1px 0 rgba(0,0,0,.2)!important,0 2px 0 rgba(0,0,0,0.6)!important; background: transparent!important}
 .theme-dark .activity-3tgXuD {background-color: rgba(0,0,0,0.5)!important;border-color: transparent !important;color: rgb(255,255,255)!important;box-shadow: none!important}
@@ -328,6 +327,8 @@ color: var(--accent) !important;font-weight:800!important;font-size:10px !import
 .theme-dark .container-2x5lvQ header {background-color: rgba(0, 0, 0, 0.95);border:1px solid var(--border)}
 .theme-dark .container-2x5lvQ section {background-color: rgba(0, 0, 0, 0.95);border:1px solid var(--border)}
 /* Search */
+.theme-dark .container-3ayLPN {background-color: rgba(0, 0, 0, 0.9);box-shadow:0 0 3px 1px var(--border)}
+.theme-dark .option-96V44q:after,.theme-dark .option-96V44q.selected-rZcOL-:after {background:none}
 .theme-dark .search .search-bar {box-shadow:0 0 3px 1px var(--border);background-color: rgba(0, 0, 0, 0.5)!important}
 .theme-dark .option-96V44q.selected-rZcOL- {background-color: var(--mc)}
 .theme-dark .searchPopout-1vUlP3 {background-color: rgba(0, 0, 0, 0.9);border: 1px solid var(--border);box-shadow: 0 0 0 0 transparent}
@@ -468,7 +469,6 @@ color: var(--accent) !important;font-weight:800!important;font-size:10px !import
 .theme-dark .messagesWrapper-3lZDfY .messages-3amgkR .containerCozy-jafyvG-blocked .containerCozy-jafyvG-blocked-btn {background: #282828;border:1px solid var(--border);color: #ccc;display: var(--block)}
 .theme-dark .dividerEnabled-2TTlcf {border-bottom: none}
 .theme-dark .chat-3bRxxu form {background-color: var(--mc);border-top: none;margin: 0 0px;padding-left: 20px;padding-right: 20px}
-.theme-dark .innerNoAutocomplete-1WpcVO {border-radius: 2px}
 .theme-dark .containerCozy-jafyvG .edit-message .edit-container-outer {margin-left: 10px}
 .theme-dark .chat-3bRxxu .divider-3gKybi:before {display:none}
 .theme-dark .channelName-3stJzi, .theme-dark .groupDM-3qU0Ks .channelName-3stJzi, 
