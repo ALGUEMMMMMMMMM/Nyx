@@ -38,7 +38,7 @@
 .bda-slist .bda-footer {border-top: 1px solid var(--border)!important}
 .bda-slist .bda-description{color: var(--text)!important;border-top:1px solid var(--border)}
 .bda-slist .bda-name{color: var(--accent)!important;font-size:16px}
-.theme-dark .wrapper-29NfPK {background-color: var(--trans);margin-top: 46px}
+.theme-dark .wrapper-29NfPK {background-color: var(--light);margin-top: 46px}
 .wrapper-29NfPK.minimum-2d6zH6 .info-2fyCMj, .wrapper-29NfPK.normal-2GSW0u .info-2fyCMj {padding: 0}
 .theme-dark .search-results-wrap {background-color: var(--trans2)!important}
 .chat-3bRxxu .base-34jWEe h1 {text-shadow:5px 5px 5px black;text-align:center;color: #fff;font-size:18px;font-weight: 600}
@@ -143,9 +143,7 @@ div.tooltips div.tooltip-right.tooltip-red strong:before {font-size: 14px;conten
 .guildsWrapper-5TJh6A .dms-rcsEnV{margin: auto;	display: flex;flex-flow: row wrap;width: auto}
 .guildsWrapper-5TJh6A .guilds-1q_RqH .dms-rcsEnV .guild-1EfMGQ {left: 0;margin: 0 15px -5px 0}
 .theme-dark .guildsWrapper-5TJh6A{margin-top: 48px !important;width: 110px;}
-.theme-dark .guilds-1q_RqH .friendsOnline-_wi_fM{
-position: relative;bottom:8px;width:55%;height:13px;background-color:rgba(0, 0, 0, 0.6);
-color: var(--accent) !important;font-weight:800!important;font-size:10px !important;left:-37px}
+.theme-dark .guilds-1q_RqH .friendsOnline-_wi_fM{position: relative;bottom:8px;width:55%;height:13px;background-color:rgba(0, 0, 0, 0.6);color: var(--accent) !important;font-weight:800!important;font-size:10px !important;left:-37px;}
 .theme-dark .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .guildInner-3DSoA4:not(svg.homeIcon-1FoKUJ) {width:40px;border-radius:var(--round)!important;text-transform: capitalize}
 .theme-dark .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .guildInner-3DSoA4 a {width:40px;height:40px;background-size:cover;color: var(--mc)}
 .theme-dark .guildsWrapper-5TJh6A .guilds-1q_RqH .guildIcon-CT-ZDq,.guilds-wrapper .guilds-1q_RqH .friends-icon  {width:40px;height:40px}
