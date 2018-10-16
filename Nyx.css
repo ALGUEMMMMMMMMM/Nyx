@@ -435,6 +435,7 @@ color: var(--accent) !important;font-weight:800!important;font-size:10px !import
 .theme-dark .avatar-xsmall, .theme-dark .avatar-xxlarge,.avatarDefault-35WC3R, .avatarSpeaking-1wJCNq  {border-radius: var(--round) !important}
 
 /* Msg Area */
+.theme-dark .channelTextArea-rNsIhG {border-top: none}
 .theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:after, 
 .theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:before,
 .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:after,
