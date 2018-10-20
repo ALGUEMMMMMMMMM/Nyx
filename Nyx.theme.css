@@ -45,13 +45,21 @@ Simply swap the url you need with the uncommented line.
 	--bg1: rgba(0,0,0, .5);	/* Library Background transparency/colour */
     --bc1:hsla(0, 100%, 50%, .6);	/* Library Box-shadow  */
     --bg: rgba(0, 0, 0, .9); /*Status Chooser background */
-    
+    /* Large Chat avatars */
 	--size1: 60px; /* Avatar Size */
 	--round1: 5%;  /* Avatar roundness 50% Circle. */
 	--margin1: 0px; /* Margin left/right */
 	--margin2: 3px; /* Margin top/bottom */
 	--shadow1: 0 0 1px #000; /* Shadow for transparent themes. */
 	--compact: 5px;    /* Default 5px, Non-compact 15px. This makes the chat msgs a bit more compact by default. */
+	/* Glow Status */
+    --sglow: 5px 2px; /* Blur/Thickness Default: 5px 2px */
+    --online: #43b581;
+    --offline: #747f8d;
+    --idle: #faa61a;
+    --stream: #593695;
+    --dnd: #f04747;
+    --invis: #1a36fa;
 }
 .appMount-3VJmYg {background: url(https://images8.alphacoders.com/485/485164.jpg) center/cover no-repeat}
 
