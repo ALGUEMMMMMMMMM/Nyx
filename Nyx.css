@@ -368,21 +368,21 @@ div.tooltips div.tooltip-right.tooltip-red strong:before {font-size: 14px;conten
 .theme-dark .divider-3gKybi-3573oO {background-color: var(--border)}
 .theme-dark .item-3eFBNF {box-shadow: inset 0 -1px 0 0 var(--border)}
 .theme-dark #bd-settingspane-container .ui-switch-item .style-description,.theme-dark #bd-settingspane-container h2.ui-form-title,
-.theme-dark #bd-settingspane-container .ui-switch-item h3,.theme-dark .ui-standard-sidebar-view,.theme-dark .ui-standard-sidebar-view label,
-.theme-dark .ui-standard-sidebar-view h5, .theme-dark .description-3_Ncsb,.theme-dark .avatar-uploader .remove-button {color:#eee;font-weight:bold}
+.theme-dark #bd-settingspane-container .ui-switch-item h3,.theme-dark .standardSidebarView-3F1I7i,.theme-dark .standardSidebarView-3F1I7i label,
+.theme-dark .standardSidebarView-3F1I7i h5, .theme-dark .description-3_Ncsb,.theme-dark .avatar-uploader .remove-button {color:#eee;font-weight:bold}
 .theme-dark .userSettingsAccount-2eMFVR .viewBody-2Qz-jg {color: #eee;opacity:1}
-.theme-dark .ui-standard-sidebar-view .sidebar-region .sidebar .side-8zPYf6 .item-PXvHYJ,.theme-dark  #bd-settings-sidebar .ui-tab-bar-item{line-height:10px}
-.theme-dark .ui-standard-sidebar-view .sidebar-region .sidebar {padding: 25px 10px 10px 25px !important;width: 200px !important}
-.theme-dark .ui-standard-sidebar-view .sidebar-region {flex: 0}
-.theme-dark .ui-standard-sidebar-view .content-column.default {max-width: 90%;padding: 40px 30px 80px}
+.theme-dark .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ,.theme-dark  #bd-settings-sidebar .ui-tab-bar-item{line-height:10px}
+.theme-dark .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .sidebar-CFHs9e {padding: 25px 10px 10px 25px !important;width: 200px !important}
+.theme-dark .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN {flex: 0}
+.theme-dark .standardSidebarView-3F1I7i .contentColumnDefault-1VQkGM {max-width: 90%;padding: 40px 30px 80px}
 
 .theme-dark .lookOutlined-3sRXeN.colorWhite-rEQuAQ {border-color: var(--border);color: #eee}
 
 .theme-dark .userSettingsAccount-2eMFVR div:nth-child(2) > div:nth-child(2) > .viewBody-2Qz-jg {transition: 0.2s ease-in;filter: blur(5px)}
 .theme-dark .userSettingsAccount-2eMFVR div:nth-child(2) > div:nth-child(2) > .viewBody-2Qz-jg:hover {transition: 0.2s ease-out;filter: none}
 
-.theme-dark .ui-standard-sidebar-view .esc-text {color: #ddd}
-.theme-dark .ui-standard-sidebar-view .btn-close {border-color: #ddd}
+.theme-dark .standardSidebarView-3F1I7i .esc-text {color: #ddd}
+.theme-dark .standardSidebarView-3F1I7i .btn-close {border-color: #ddd}
 .btn-close > svg > g > path.fill {fill: #fff}
 .theme-dark .cardPrimary-1Hv-to {background-color: rgba(0, 0, 0, 0.8);border-color: var(--border)}
 .theme-dark .side-8zPYf6 .header-2RyJ0Y,.theme-dark .side-8zPYf6 .item-PXvHYJ,
@@ -398,7 +398,7 @@ div.tooltips div.tooltip-right.tooltip-red strong:before {font-size: 14px;conten
 /* Custom CSS */
 .ace-monokai {background-color: rgba(0, 0, 0, 0.5);color: var(--text) ;box-shadow: 0 0 2px 1px var(--border)}
 .ace-monokai .ace_gutter {background: rgba(0, 0, 0, 0.5);color: var(--text)}
-.content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {
+.contentRegion-3nDuYy #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {
     background: rgba(0, 0, 0, 0.8);border: 5%;top:1px;position:relative;box-shadow: 0 0 2px 1px var(--border)}
 
 
@@ -499,7 +499,7 @@ div.tooltips div.tooltip-right.tooltip-red strong:before {font-size: 14px;conten
 .theme-dark .messagesWrapper-3lZDfY, .guilds-1q_RqH .guild-1EfMGQ:first-child, .theme-dark .chat-3bRxxu form, 
 .flex-horizontal>.flex-spacer, .theme-dark .uploadModal-2ifh8j .footer-3mqk7D, .theme-dark #friends, 
 .theme-dark .activityFeed-28jde9, .theme-dark .footer-2yfCgX, .theme-dark .channels-Ie2l6A,
-.theme-dark .ui-standard-sidebar-view .sidebar-region, .theme-dark .ui-standard-sidebar-view .content-region, 
+.theme-dark .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN, .theme-dark .standardSidebarView-3F1I7i .contentRegion-3nDuYy, 
 .theme-dark .layers-3iHuyZ, .theme-dark .guildsWrapper-5TJh6A .guilds-1q_RqH, .theme-dark .members-1998pB, 
 .theme-dark .title-3qD0b-,.theme-dark .gameLibrary-TTDw4Y,#app-mount .applicationStore-1pNvnv, #app-mount .itemBackground-1jfD8p {background: var(--light) !important;background-color:var(--light) !important}
 
@@ -515,7 +515,7 @@ div.tooltips div.tooltip-right.tooltip-red strong:before {font-size: 14px;conten
 .winButton-iRh8-Z {opacity: 1}
 .theme-dark .iconForeground-3y9f0B, .theme-dark .title-1aVOXw {color: #fff}
 .theme-dark .backdrop-1wrmKB {opacity: .3 !important}
-.theme-dark .container-2lgZY8,.theme-dark .ui-standard-sidebar-view,.titleBar-AC4pGV::after {background-color: var(--light)}
+.theme-dark .container-2lgZY8,.theme-dark .standardSidebarView-3F1I7i,.titleBar-AC4pGV::after {background-color: var(--light)}
 .theme-dark .chat-3bRxxu,.theme-dark .guildsWrapper-5TJh6A,.theme-dark .layer-3QrUeG{background-color: transparent}
 
 input{background: #f6f6f6}
@@ -537,7 +537,7 @@ button.bd-customicon-settings, .search-results-wrap .search-result:after, .searc
 .popout.popout-top-right section:after, .create-guild-container .create-or-join .actions .or, .radio-theme.light, 
 .guilds-1q_RqH li .guildInner-3DSoA4:before,div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6 > svg:nth-child(7), 
 .theme-dark .divider-2PMBlV, .emojiPicker-3m1S-j .stickyHeader-1SS0JU, .side-8zPYf6 .separator-gCa7yv, .theme-dark .embedPill-1Zntps, 
-.emojiPicker-3g68GS .stickyHeader-3LjM5X, .sidebar-region .sidebar .side-8zPYf6  .separator-gCa7y, 
+.emojiPicker-3g68GS .stickyHeader-3LjM5X, .sidebarRegion-VFTUkN .sidebar-CFHs9e .side-8zPYf6  .separator-gCa7y, 
 .socialLinks-1oZoF3, .noticePremium-2x9Tv2, .embedProviderLink-2k6W5T, .embedProvider-1KNREX, .containerCozy-jafyvG .mentioned .message-text:after,
 div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.directionRow-3v3tfG.justifyStart-2NDFzi.alignCenter-1dQNNs.noWrap-3jynv6 > svg:nth-child(4), 
 #bd-settings-sidebar .ui-tab-bar-separator, .header-toolbar button.active, .ui-tab-bar.SIDE .ui-tab-bar-separator, 
@@ -631,7 +631,7 @@ div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.dire
 .progress .progress-bar, .react-datepicker .react-datepicker__day.react-datepicker__day--today:after, #voice-debug-modal #users-section .user-list li:hover:before, #voice-debug-modal #users-section .user-list li.selected:before, 
 .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z, .bd-toast, .toast, .selectableItem-3PW5_y.selected-3MAwPR, .headerButtonColor-G7_f-V, .headerButtonColor-G7_f-V, .message .username-wrapper.popout-open,
 .activity-AFBUEw, .placeholderAvatar-uzH8f6, .placeholderUsername-236yYU, .theme-dark .markup-2BOw-j .hljs[class~="css" i]::before, .radio .radio-inner span:after, .search-bar-tag, .ui-switch-checkbox:checked+.ui-switch, 
-.ui-slider .slider-bar-fill, .theme-dark .ui-settings-notice, .ui-selectable-item.selected, .theme-dark .ui-selectable-item:active, .ui-standard-sidebar-view #editor-detached button, 
+.ui-slider .slider-bar-fill, .theme-dark .ui-settings-notice, .ui-selectable-item.selected, .theme-dark .ui-selectable-item:active, .standardSidebarView-3F1I7i #editor-detached button, 
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected:after, .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected:after, 
 .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected:hover, .calendarPicker-2yf6Ci .react-datepicker__day:hover, .region-select:hover button, .create-guild-container .action:hover.create .btn,
 .spinner-pulsing-ellipsis .spinner-item, .theme-dark .messages-popout-wrap .messages-popout .containerCozy-jafyvG .action-buttons .jump-button, .theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary, 
