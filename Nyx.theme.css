@@ -20,7 +20,7 @@ Simply swap the url you need with the uncommented line.
 @import url(https://satoru8.github.io/FullSizePfp/FullSizePfp.css);
 @import url(https://satoru8.github.io/Addons/AniEmoji.css);
 @import url(https://satoru8.github.io/Addons/CodeBlocks.css);
-@import url(https://satoru8.github.io/NovaFork/GlowNova.css);
+@import url(https://satoru8.github.io/Addons/GlowStatus.css);
 @import url(https://satoru8.github.io/Addons/StatusChooser.css);
 
 :root {
@@ -51,6 +51,7 @@ Simply swap the url you need with the uncommented line.
 	--margin1: 0px; /* Margin left/right */
 	--margin2: 3px; /* Margin top/bottom */
 	--shadow1: 0 0 1px #000; /* Shadow for transparent themes. */
+	--compact: 5px;    /* Default 5px, Non-compact 15px. This makes the chat msgs a bit more compact by default. */
 }
 .appMount-3VJmYg {background: url(https://images8.alphacoders.com/485/485164.jpg) center/cover no-repeat}
 
