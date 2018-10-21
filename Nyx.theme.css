@@ -22,6 +22,7 @@ Simply swap the url you need with the uncommented line.
 @import url(https://satoru8.github.io/Addons/CodeBlocks.css);
 @import url(https://satoru8.github.io/Addons/GlowStatus.css);
 @import url(https://satoru8.github.io/Addons/StatusChooser.css);
+@import url(https://satoru8.github.io/Addons/LargeChatAvatars.css);
 
 :root {
 	--light: hsla(0, 0%, 0%, 0.25); /* Overall brightness. 1= black, 0 = transparent */
@@ -48,10 +49,10 @@ Simply swap the url you need with the uncommented line.
     /* Large Chat avatars */
 	--size1: 60px; /* Avatar Size */
 	--round1: 5%;  /* Avatar roundness 50% Circle. */
-	--margin1: 0px; /* Margin left/right */
-	--margin2: 3px; /* Margin top/bottom */
+	--margin1: -20px; /* Margin left/right */
+	--margin2: 0px; /* Margin top/bottom */
 	--shadow1: 0 0 1px #000; /* Shadow for transparent themes. */
-	--compact: 5px;    /* Default 5px, Non-compact 15px. This makes the chat msgs a bit more compact by default. */
+	--compact: 15px;    /* Default 5px, Non-compact 15px. This makes the chat msgs a bit more compact by default. */
 	/* Glow Status */
     --sglow: 5px 2px; /* Blur/Thickness Default: 5px 2px */
     --online: #43b581;
