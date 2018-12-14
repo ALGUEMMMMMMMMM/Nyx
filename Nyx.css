@@ -637,4 +637,4 @@ div.flex-1xMQg5.flex-1O1GKY.horizontal-1ae9ci.horizontal-2EEEnY.flex-1O1GKY.dire
 .spinner-pulsing-ellipsis .spinner-item, .theme-dark .messages-popout-wrap .messages-popout .containerCozy-jafyvG .action-buttons .jump-button, .theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary, 
 .channel-members .invite-btn, .upload-modal, .upload-modal .footer .button, #instant-invite-modal .copy, .form .btn-primary, .highlight:hover, .popout header {background-color: var(--mc)!important;background: var(--mc)!important}
 
-.theme-dark .dockItem-2kQDqg:hover, .theme-dark .messagesPopoutWrap-1MQ1bW .footer-1kmXd4, .theme-dark .popoutList-2NT_IY, .theme-dark .item-1XYaYf:hover, .theme-dark .body-3ND3kc {background:var(--trans2) !important;background-color: var(--trans2) !important}
+.theme-dark .dockItem-2kQDqg:hover, .theme-dark .messagesPopoutWrap-1MQ1bW .footer-1kmXd4, .theme-dark .popoutList-2NT_IY, .theme-dark .item-1XYaYf:hover,#app-mount .root-1BQpZw, .theme-dark .body-3ND3kc {background:var(--trans2) !important;background-color: var(--trans2) !important}
