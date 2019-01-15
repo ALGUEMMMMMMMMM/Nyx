@@ -62,7 +62,7 @@ Simply swap the url you need with the uncommented line.
     --dnd: #f04747;
     --invis: #1a36fa;
 }
-.appMount-3VJmYg {background: url(https://images8.alphacoders.com/485/485164.jpg) center/cover no-repeat}
+#app-mount {background: url(https://images8.alphacoders.com/485/485164.jpg) center/cover no-repeat}
 
  /* Backgrounds -
 You can use one of these if you dont feel like using your own.
