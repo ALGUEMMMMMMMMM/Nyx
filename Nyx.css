@@ -323,13 +323,6 @@ div.tooltips-FhwIyl div.right-KM_vfY.red-m6f4-H strong:before {font-size: 14px;c
 .popouts-3dRSmE .popout-3sVMXz .menu-Sp6bN1:not(.alt-3btY0e) .item-1GzJrl:hover {color: #fff;background: var(--trans2);box-shadow: 0 0 3px 1px var(--border)}
 #app-mount .menu-Sp6bN1:not(.alt-3btY0e) {background: rgba(0, 0, 0, 0.92);box-shadow: 0 0 2px 1px var(--border);animation:toppopout .6s ease-in-out}
 #app-mount .icon-2doZ3q {opacity:1}
-
-/* Help */
-#app-mount .need-help-modal.deprecated {border:1px solid var(--border);border-radius:6px}
-#app-mount .need-help-modal.deprecated .header,#app-mount .form-deprecated .form-inner, #app-mount .form.deprecated .form-inner,
-#app-mount .need-help-modal.deprecated .footer {background-color: rgba(0, 0, 0, 0.9)}
-#app-mount .need-help-modal.deprecated .footer {border-color: var(--border)}
-#app-mount .form.deprecated .control-group input[type=text]{    border: 1px solid var(--border);background-color:#181818}
 /* RTC */
 #app-mount .container-2x5lvQ header {background-color: rgba(0, 0, 0, 0.95);border:1px solid var(--border)}
 #app-mount .container-2x5lvQ section {background-color: rgba(0, 0, 0, 0.95);border:1px solid var(--border)}
