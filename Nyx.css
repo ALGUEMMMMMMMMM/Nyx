@@ -539,7 +539,7 @@ div.tooltips-FhwIyl div.right-KM_vfY.red-m6f4-H strong:before {font-size: 14px;c
 input{background: #f6f6f6}
 body,h1,h2,h3,h4,h5,h6 {color: var(--text);font-family:var(--font);text-rendering: optimizeLegibility !important; font-smoothing: antialiased !important}
 #app-mount ::selection {background: #000;color:rgba(255, 0, 0, .8)}
-#app-mount ::-webkit-input-placeholder {color: rgba(255, 255, 255, 0.8) !important}
+#app-mount ::placeholder {color: rgba(255, 255, 255, 0.8) !important}
 body,span:not(.spinner-item){-webkit-backface-visibility:hidden}
 
 /* Display */
